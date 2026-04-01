@@ -6,6 +6,7 @@
 
   export default defineConfig({
     plugins: [react(), tailwindcss()],
+    base: '/smart-parking-website',
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {
