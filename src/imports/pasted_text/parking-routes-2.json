@@ -1,0 +1,667 @@
+[
+    {
+        "primary_area": "Engineering",
+        "lot_name": "Richard A. Beard Garage",
+        "Nearest Bull Runner Stops": "00206 - University Technology Center",
+        "Routes Covered at that Stops (ex: purple, green etc)": "green, red",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Library",
+        "lot_name": "Collins Blvd Garage",
+        "Nearest Bull Runner Stops": "00102 - Library",
+        "Routes Covered at that Stops (ex: purple, green etc)": "brown, green, orange, purple, red ",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "USF Health",
+        "lot_name": "Laurel Drive Garage",
+        "Nearest Bull Runner Stops": "00326 - Laurel Dr Parking Garage",
+        "Routes Covered at that Stops (ex: purple, green etc)": "blue, orange ",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "The Village",
+        "lot_name": "Crescent Hill Garage",
+        "Nearest Bull Runner Stops": "00418 - The Village Holly Dr entrance",
+        "Routes Covered at that Stops (ex: purple, green etc)": "orange, purple ",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Education",
+        "lot_name": "Lot 01",
+        "Nearest Bull Runner Stops": "00102 - Library",
+        "Routes Covered at that Stops (ex: purple, green etc)": "brown, green, orange, purple, red ",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Library",
+        "lot_name": "Lot 02A",
+        "Nearest Bull Runner Stops": "00102 - Library",
+        "Routes Covered at that Stops (ex: purple, green etc)": "brown, green, orange, purple, red ",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Marshall Student Center",
+        "lot_name": "Lot 03A",
+        "Nearest Bull Runner Stops": "00401 - Marshall Student Center",
+        "Routes Covered at that Stops (ex: purple, green etc)": "blue, green, orange, purple, red ",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Marshall Student Center",
+        "lot_name": "Lot 03B",
+        "Nearest Bull Runner Stops": "00401 - Marshall Student Center",
+        "Routes Covered at that Stops (ex: purple, green etc)": "blue, green, orange, purple, red ",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Marshall Student Center",
+        "lot_name": "Lot 03C",
+        "Nearest Bull Runner Stops": "00304 - Marshall Student Center",
+        "Routes Covered at that Stops (ex: purple, green etc)": "blue, green, orange, red ",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Fine Arts",
+        "lot_name": "Lot 03D",
+        "Nearest Bull Runner Stops": "00303 - Fine Arts Studio",
+        "Routes Covered at that Stops (ex: purple, green etc)": "blue, green, orange, red ",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Post Office",
+        "lot_name": "Lot 04",
+        "Nearest Bull Runner Stops": "00302 - Post Office",
+        "Routes Covered at that Stops (ex: purple, green etc)": "green, red ",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Marshall Student Center",
+        "lot_name": "Lot 05A",
+        "Nearest Bull Runner Stops": "00401 - Marshall Student Center",
+        "Routes Covered at that Stops (ex: purple, green etc)": "blue, green, orange, purple, red ",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Argos Center",
+        "lot_name": "Lot 05B",
+        "Nearest Bull Runner Stops": "00421 - North Campus Mail Center",
+        "Routes Covered at that Stops (ex: purple, green etc)": "orange, purple ",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Maple Hall",
+        "lot_name": "Lot 05D",
+        "Nearest Bull Runner Stops": "00425 - Holly Dr at Maple Suites",
+        "Routes Covered at that Stops (ex: purple, green etc)": "orange, purple ",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Beta Hall",
+        "lot_name": "Lot 05E",
+        "Nearest Bull Runner Stops": "00115 - Genshaft Dr at Maple Suites",
+        "Routes Covered at that Stops (ex: purple, green etc)": "purple",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Recreation Activities Center",
+        "lot_name": "Lot 06",
+        "Nearest Bull Runner Stops": "00162 - Baseball Field",
+        "Routes Covered at that Stops (ex: purple, green etc)": "orange",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Behavioral Sciences",
+        "lot_name": "Lot 07A",
+        "Nearest Bull Runner Stops": "00121 - Sessums Mall",
+        "Routes Covered at that Stops (ex: purple, green etc)": "purple",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Faculty Office Building",
+        "lot_name": "Lot 07B",
+        "Nearest Bull Runner Stops": "00121 - Sessums Mall",
+        "Routes Covered at that Stops (ex: purple, green etc)": "purple",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Student Services Building",
+        "lot_name": "Lot 07C",
+        "Nearest Bull Runner Stops": "00121 - Sessums Mall",
+        "Routes Covered at that Stops (ex: purple, green etc)": "purple",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Science Center",
+        "lot_name": "Lot 08A",
+        "Nearest Bull Runner Stops": "00209 - Science Center",
+        "Routes Covered at that Stops (ex: purple, green etc)": "green",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Juniper Poplar Hall",
+        "lot_name": "Lot 08B",
+        "Nearest Bull Runner Stops": "00209 - Science Center",
+        "Routes Covered at that Stops (ex: purple, green etc)": "green",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Engineering",
+        "lot_name": "Lot 08C",
+        "Nearest Bull Runner Stops": "00204 - Research Park",
+        "Routes Covered at that Stops (ex: purple, green etc)": "green, red ",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Psychology & Communication Sciences",
+        "lot_name": "Lot 09A",
+        "Nearest Bull Runner Stops": "00221 - Psychology to MSC",
+        "Routes Covered at that Stops (ex: purple, green etc)": "green",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "USF Health Faculty Office Building",
+        "lot_name": "Lot 09C",
+        "Nearest Bull Runner Stops": "00226 - Moffit Office Building",
+        "Routes Covered at that Stops (ex: purple, green etc)": "green",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Alzheimers Center",
+        "lot_name": "Lot 11",
+        "Nearest Bull Runner Stops": "00348 - USF Health Therapy Building",
+        "Routes Covered at that Stops (ex: purple, green etc)": "blue",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Psychiatry School of Physical Therapy",
+        "lot_name": "Lot 12",
+        "Nearest Bull Runner Stops": "00348- USF Health Therapy Building",
+        "Routes Covered at that Stops (ex: purple, green etc)": "blue",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Parking & Transportation Services",
+        "lot_name": "Lot 14",
+        "Nearest Bull Runner Stops": "00326 - Laurel Dr Parking Garage",
+        "Routes Covered at that Stops (ex: purple, green etc)": "blue, orange ",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "C. W. Bill Young Hall",
+        "lot_name": "Lot 15",
+        "Nearest Bull Runner Stops": "00120 - CW Bill Young Hall",
+        "Routes Covered at that Stops (ex: purple, green etc)": "purple",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "The Fit Health & Wellness Center",
+        "lot_name": "Lot 16",
+        "Nearest Bull Runner Stops": "00970 - Parking Lot 56",
+        "Routes Covered at that Stops (ex: purple, green etc)": "blue, green, orange, purple",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Beach at Castor",
+        "lot_name": "Lot 17A",
+        "Nearest Bull Runner Stops": "00116 - Genshaft Dr at Parking Lot 35",
+        "Routes Covered at that Stops (ex: purple, green etc)": "purple",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Social Sciences",
+        "lot_name": "Lot 17B",
+        "Nearest Bull Runner Stops": "00116 - Genshaft Dr at Parking Lot 35",
+        "Routes Covered at that Stops (ex: purple, green etc)": "purple",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Baseball Stadium",
+        "lot_name": "Lot 18B",
+        "Nearest Bull Runner Stops": "00161 - Lee Roy Selmon Athletics Center",
+        "Routes Covered at that Stops (ex: purple, green etc)": "orange",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Porter Family Indoor Performance Facility",
+        "lot_name": "Lot 18T",
+        "Nearest Bull Runner Stops": "00154 - SycamoreDr - Stadium",
+        "Routes Covered at that Stops (ex: purple, green etc)": "orange",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Hope Lodge",
+        "lot_name": "Lot 19",
+        "Nearest Bull Runner Stops": "00230 - Magnolia Dr at Parking Lot 19",
+        "Routes Covered at that Stops (ex: purple, green etc)": "green",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Teco Substation",
+        "lot_name": "Lot 20",
+        "Nearest Bull Runner Stops": "00411 - Palm Dr at Laurel Dr",
+        "Routes Covered at that Stops (ex: purple, green etc)": "green, purple",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "CW Bill Young Hall",
+        "lot_name": "Lot 21",
+        "Nearest Bull Runner Stops": "00120 - CW Bill Young Hall",
+        "Routes Covered at that Stops (ex: purple, green etc)": "purple",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Yuengling Center",
+        "lot_name": "Lot 22A",
+        "Nearest Bull Runner Stops": "00126 - Yuengling Center west entrance",
+        "Routes Covered at that Stops (ex: purple, green etc)": "purple",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Student Health & Wellness Center",
+        "lot_name": "Lot 22D",
+        "Nearest Bull Runner Stops": "00126 - Yuengling Center west entrance",
+        "Routes Covered at that Stops (ex: purple, green etc)": "purple",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Yuengling Center",
+        "lot_name": "Lot 22E",
+        "Nearest Bull Runner Stops": "00165 - Yuengling Center east entrance",
+        "Routes Covered at that Stops (ex: purple, green etc)": "orange",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Yuengling Center",
+        "lot_name": "Lot 22F",
+        "Nearest Bull Runner Stops": "00165 - Yuengling Center east entrance",
+        "Routes Covered at that Stops (ex: purple, green etc)": "orange",
+        "Unnamed: 4": "Permits: D,E,F"
+    },
+    {
+        "primary_area": "Alumni Center",
+        "lot_name": "Lot 23A",
+        "Nearest Bull Runner Stops": "00110 - Patel Center",
+        "Routes Covered at that Stops (ex: purple, green etc)": "orange",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Dr. Kiran C. Patel Center for Global Solutions",
+        "lot_name": "Lot 23B",
+        "Nearest Bull Runner Stops": "00110 - Patel Center",
+        "Routes Covered at that Stops (ex: purple, green etc)": "orange",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Alumni Center",
+        "lot_name": "Lot 23T",
+        "Nearest Bull Runner Stops": "00110 - Patel Center",
+        "Routes Covered at that Stops (ex: purple, green etc)": "orange",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Juniper Poplar Hall",
+        "lot_name": "Lot 24",
+        "Nearest Bull Runner Stops": "00214 - Juniper - Poplar",
+        "Routes Covered at that Stops (ex: purple, green etc)": "green",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Cypress Apartments",
+        "lot_name": "Lot 25",
+        "Nearest Bull Runner Stops": "00970 - Parking Lot 56",
+        "Routes Covered at that Stops (ex: purple, green etc)": "blue, green, orange, purple",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "University Police Building",
+        "lot_name": "Lot 26",
+        "Nearest Bull Runner Stops": "00970 - Parking Lot 56",
+        "Routes Covered at that Stops (ex: purple, green etc)": "blue, green, orange, purple",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Post Office",
+        "lot_name": "Lot 28",
+        "Nearest Bull Runner Stops": "00302 - Post Office",
+        "Routes Covered at that Stops (ex: purple, green etc)": "green, red ",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Communication and Information Sciences",
+        "lot_name": "Lot 29A",
+        "Nearest Bull Runner Stops": "00102 - Library",
+        "Routes Covered at that Stops (ex: purple, green etc)": "brown, green, orange, purple, red ",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Library",
+        "lot_name": "Lot 29B",
+        "Nearest Bull Runner Stops": "00102 - Library",
+        "Routes Covered at that Stops (ex: purple, green etc)": "purple, red, orange, brown, green",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Shared Student Services",
+        "lot_name": "Lot 30",
+        "Nearest Bull Runner Stops": "00311 - Moffit Research Center",
+        "Routes Covered at that Stops (ex: purple, green etc)": "red",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Student Group Learning",
+        "lot_name": "Lot 31",
+        "Nearest Bull Runner Stops": "00311 - Moffit Research Center",
+        "Routes Covered at that Stops (ex: purple, green etc)": "red",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "H. Lee Moffitt Cancer Center",
+        "lot_name": "Lot 32",
+        "Nearest Bull Runner Stops": "00311 - Moffit Research Center",
+        "Routes Covered at that Stops (ex: purple, green etc)": "red",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Moffitt Research Center",
+        "lot_name": "Lot 33",
+        "Nearest Bull Runner Stops": "00311 - Moffit Research Center",
+        "Routes Covered at that Stops (ex: purple, green etc)": "red",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Moffitt Parking Garage",
+        "lot_name": "Lot 33T",
+        "Nearest Bull Runner Stops": "00226 - Moffit Office Building",
+        "Routes Covered at that Stops (ex: purple, green etc)": "green",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "College of Nursing",
+        "lot_name": "Lot 34",
+        "Nearest Bull Runner Stops": "00348 - USF Health Therapy Building",
+        "Routes Covered at that Stops (ex: purple, green etc)": "blue",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Varsity Tennis Courts",
+        "lot_name": "Lot 35",
+        "Nearest Bull Runner Stops": "00445 - Parking Lot 35",
+        "Routes Covered at that Stops (ex: purple, green etc)": "orange",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "USF Muma College of Business",
+        "lot_name": "Lot 36",
+        "Nearest Bull Runner Stops": "00125 - Muma College of Buisness",
+        "Routes Covered at that Stops (ex: purple, green etc)": "purple",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Behavioral Sciences",
+        "lot_name": "Lot 37",
+        "Nearest Bull Runner Stops": "00120 - CW Bill Young Hall",
+        "Routes Covered at that Stops (ex: purple, green etc)": "purple",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "College of Behavioral & Community Sciences",
+        "lot_name": "Lot 38A",
+        "Nearest Bull Runner Stops": "00346 - Chiles Center",
+        "Routes Covered at that Stops (ex: purple, green etc)": "blue",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "College of Public Health",
+        "lot_name": "Lot 38B",
+        "Nearest Bull Runner Stops": "00352 - Morsani Advanced Healthcare",
+        "Routes Covered at that Stops (ex: purple, green etc)": "blue",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Northwest Education Complex",
+        "lot_name": "Lot 38C",
+        "Nearest Bull Runner Stops": "00342 - College of Public Health",
+        "Routes Covered at that Stops (ex: purple, green etc)": "blue",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "College of Behavioral & Community Sciences",
+        "lot_name": "Lot 38D",
+        "Nearest Bull Runner Stops": "00305 - School of Music",
+        "Routes Covered at that Stops (ex: purple, green etc)": "orange, red, blue, green",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "College of Behavioral & Community Sciences",
+        "lot_name": "Lot 38E",
+        "Nearest Bull Runner Stops": "00344 - Northwest Education Complex",
+        "Routes Covered at that Stops (ex: purple, green etc)": "blue",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Westside Conference Center",
+        "lot_name": "Lot 38F",
+        "Nearest Bull Runner Stops": "00340 - Westside Conference Center",
+        "Routes Covered at that Stops (ex: purple, green etc)": "blue",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "College of Behavioral & Community Sciences",
+        "lot_name": "Lot 38G",
+        "Nearest Bull Runner Stops": "00346 - Chiles Center",
+        "Routes Covered at that Stops (ex: purple, green etc)": "blue",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Northwest Education Complex",
+        "lot_name": "Lot 38H",
+        "Nearest Bull Runner Stops": "00346 - Chiles Center",
+        "Routes Covered at that Stops (ex: purple, green etc)": "blue",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "College of Behavioral & Community Sciences",
+        "lot_name": "Lot 38R",
+        "Nearest Bull Runner Stops": "00346 - Chiles Center",
+        "Routes Covered at that Stops (ex: purple, green etc)": "blue",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "College of Behavioral & Community Sciences",
+        "lot_name": "Lot 38T",
+        "Nearest Bull Runner Stops": "00346 - Chiles Center",
+        "Routes Covered at that Stops (ex: purple, green etc)": "blue",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "USF Family Center",
+        "lot_name": "Lot 38U",
+        "Nearest Bull Runner Stops": "00352 - Morsani Advanced Healthcare",
+        "Routes Covered at that Stops (ex: purple, green etc)": "blue",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Health Partnership Complex",
+        "lot_name": "Lot 39A",
+        "Nearest Bull Runner Stops": "00352 - Morsani Advanced Healthcare",
+        "Routes Covered at that Stops (ex: purple, green etc)": "blue",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Health Partnership Complex",
+        "lot_name": "Lot 39B",
+        "Nearest Bull Runner Stops": "00352 - Morsani Advanced Healthcare",
+        "Routes Covered at that Stops (ex: purple, green etc)": "blue",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Educational Research Center",
+        "lot_name": "Lot 40",
+        "Nearest Bull Runner Stops": "00165 - Yuengling Center east entrance",
+        "Routes Covered at that Stops (ex: purple, green etc)": "orange",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Human Services Building",
+        "lot_name": "Lot 41",
+        "Nearest Bull Runner Stops": "00121 - Sessums Mall",
+        "Routes Covered at that Stops (ex: purple, green etc)": "purple",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "USF Health Faculty Office Building",
+        "lot_name": "Lot 42",
+        "Nearest Bull Runner Stops": "00312 - USF Health Faculty Office Building",
+        "Routes Covered at that Stops (ex: purple, green etc)": "red, blue",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Alzheimers Center",
+        "lot_name": "Lot 43",
+        "Nearest Bull Runner Stops": "00328 - Park and Ride Lot 43 West",
+        "Routes Covered at that Stops (ex: purple, green etc)": "orange, blue",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Testbed Assistive Rehabilitative Robotics",
+        "lot_name": "Lot 44",
+        "Nearest Bull Runner Stops": "00328 - Park and Ride Lot 43 West",
+        "Routes Covered at that Stops (ex: purple, green etc)": "orange, blue",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Theatre Centre",
+        "lot_name": "Lot 45",
+        "Nearest Bull Runner Stops": "00401 - Marshall Student Center",
+        "Routes Covered at that Stops (ex: purple, green etc)": "blue, green, orange, purple, red ",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Psychology & Communication Sciences",
+        "lot_name": "Lot 46",
+        "Nearest Bull Runner Stops": "00230 - Magnolia Dr at Parking Lot 19",
+        "Routes Covered at that Stops (ex: purple, green etc)": "green",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Magnolia Field Complex",
+        "lot_name": "Lot 47",
+        "Nearest Bull Runner Stops": "00239 - Magnolia Field Complex",
+        "Routes Covered at that Stops (ex: purple, green etc)": "red",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Magnolia Apartments",
+        "lot_name": "Lot 47A",
+        "Nearest Bull Runner Stops": "00239 - Magnolia Field Complex",
+        "Routes Covered at that Stops (ex: purple, green etc)": "red",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Botanical Garden",
+        "lot_name": "Lot 48",
+        "Nearest Bull Runner Stops": "00241 - Botanical Gardens to Library",
+        "Routes Covered at that Stops (ex: purple, green etc)": "red",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Greek Village",
+        "lot_name": "Lot 50",
+        "Nearest Bull Runner Stops": "00446 - Greek Park",
+        "Routes Covered at that Stops (ex: purple, green etc)": "orange",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Greek Village",
+        "lot_name": "Lot 51",
+        "Nearest Bull Runner Stops": "00446 - Greek Park",
+        "Routes Covered at that Stops (ex: purple, green etc)": "orange",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Greek Village",
+        "lot_name": "Lot 52",
+        "Nearest Bull Runner Stops": "00446 - Greek Park",
+        "Routes Covered at that Stops (ex: purple, green etc)": "orange",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Greek Village",
+        "lot_name": "Lot 52T",
+        "Nearest Bull Runner Stops": "00446 - Greek Park",
+        "Routes Covered at that Stops (ex: purple, green etc)": "orange",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Greek Village",
+        "lot_name": "Lot 53",
+        "Nearest Bull Runner Stops": "00446 - Greek Park",
+        "Routes Covered at that Stops (ex: purple, green etc)": "orange",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "The Fit Health & Wellness Center",
+        "lot_name": "Lot 56",
+        "Nearest Bull Runner Stops": "00970 - Parking Lot 56",
+        "Routes Covered at that Stops (ex: purple, green etc)": "purple, orange, blue, green",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "USF Apple Drive",
+        "lot_name": "Lot Apple",
+        "Nearest Bull Runner Stops": "00102 - Library",
+        "Routes Covered at that Stops (ex: purple, green etc)": "brown, green, orange, purple, red ",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Campus Information Center",
+        "lot_name": "Lot CIC",
+        "Nearest Bull Runner Stops": "00108 - Alumni Center",
+        "Routes Covered at that Stops (ex: purple, green etc)": "orange, purple ",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "USF Cedar Circle",
+        "lot_name": "Lot Cedar Drive",
+        "Nearest Bull Runner Stops": "00401 - Marshall Student Center",
+        "Routes Covered at that Stops (ex: purple, green etc)": "blue, green, orange, purple, red ",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Recreation Softball Complex",
+        "lot_name": "Lot Intramural Field",
+        "Nearest Bull Runner Stops": "00161 - Lee Roy Selmon Athletics Center",
+        "Routes Covered at that Stops (ex: purple, green etc)": "orange",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Life Science Annex",
+        "lot_name": "Lot Life Science Annex",
+        "Nearest Bull Runner Stops": "00209 - Science Center",
+        "Routes Covered at that Stops (ex: purple, green etc)": "green",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Morsani College of Medicine",
+        "lot_name": "Lot Morsani Service Area",
+        "Nearest Bull Runner Stops": "00352 - Morsani Advanced Healthcare",
+        "Routes Covered at that Stops (ex: purple, green etc)": "blue",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "USF Sago Drive",
+        "lot_name": "Lot Sago Drive",
+        "Nearest Bull Runner Stops": "00108 - Alumni Center",
+        "Routes Covered at that Stops (ex: purple, green etc)": "purple, orange",
+        "Unnamed: 4": NaN
+    },
+    {
+        "primary_area": "Varsity Tennis Courts",
+        "lot_name": "Lot Varsity Tennis Court",
+        "Nearest Bull Runner Stops": "00445 - Parking Lot 35",
+        "Routes Covered at that Stops (ex: purple, green etc)": "orange",
+        "Unnamed: 4": NaN
+    }
+]

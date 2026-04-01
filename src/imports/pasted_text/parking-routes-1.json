@@ -1,0 +1,1024 @@
+[
+  {
+    "lot_name": "Richard A. Beard Garage",
+    "primary_area": "Engineering",
+    "nearest_bull_runner_stops": [
+      "00206 - University Technology Center"
+    ],
+    "routes_covered": [
+      "green",
+      "red"
+    ]
+  },
+  {
+    "lot_name": "Collins Blvd Garage",
+    "primary_area": "Marshall Student Center",
+    "nearest_bull_runner_stops": [
+      "00401 - Marshall Student Center"
+    ],
+    "routes_covered": [
+      "brown",
+      "green",
+      "orange",
+      "purple",
+      "red"
+    ]
+  },
+  {
+    "lot_name": "Laurel Drive Garage",
+    "primary_area": "USF Health",
+    "nearest_bull_runner_stops": [
+      "00326 - Laurel Dr Parking Garage"
+    ],
+    "routes_covered": [
+      "blue",
+      "orange"
+    ]
+  },
+  {
+    "lot_name": "Crescent Hill Garage",
+    "primary_area": "The Village",
+    "nearest_bull_runner_stops": [
+      "00418 - The Village Holly Dr entrance"
+    ],
+    "routes_covered": [
+      "orange",
+      "purple"
+    ]
+  },
+  {
+    "lot_name": "Lot 01",
+    "primary_area": "Education",
+    "nearest_bull_runner_stops": [
+      "00102 - Library"
+    ],
+    "routes_covered": [
+      "brown",
+      "green",
+      "orange",
+      "purple",
+      "red"
+    ]
+  },
+  {
+    "lot_name": "Lot 02A",
+    "primary_area": "Engineering",
+    "nearest_bull_runner_stops": [
+      "00102 - Library"
+    ],
+    "routes_covered": [
+      "brown",
+      "green",
+      "orange",
+      "purple",
+      "red"
+    ]
+  },
+  {
+    "lot_name": "Lot 03A",
+    "primary_area": "Marshall Student Center",
+    "nearest_bull_runner_stops": [
+      "00401 - Marshall Student Center"
+    ],
+    "routes_covered": [
+      "blue",
+      "green",
+      "orange",
+      "purple",
+      "red"
+    ]
+  },
+  {
+    "lot_name": "Lot 03B",
+    "primary_area": "Marshall Student Center",
+    "nearest_bull_runner_stops": [
+      "00401 - Marshall Student Center"
+    ],
+    "routes_covered": [
+      "blue",
+      "green",
+      "orange",
+      "purple",
+      "red"
+    ]
+  },
+  {
+    "lot_name": "Lot 03C",
+    "primary_area": "Marshall Student Center",
+    "nearest_bull_runner_stops": [
+      "00304 - Marshall Student Center"
+    ],
+    "routes_covered": [
+      "blue",
+      "green",
+      "orange",
+      "red"
+    ]
+  },
+  {
+    "lot_name": "Lot 03D",
+    "primary_area": "Fine Arts",
+    "nearest_bull_runner_stops": [
+      "00303 - Fine Arts Studio"
+    ],
+    "routes_covered": [
+      "blue",
+      "green",
+      "orange",
+      "red"
+    ]
+  },
+  {
+    "lot_name": "Lot 04",
+    "primary_area": "Parking & Transportation Services",
+    "nearest_bull_runner_stops": [
+      "00302 - Post Office"
+    ],
+    "routes_covered": [
+      "green",
+      "red"
+    ]
+  },
+  {
+    "lot_name": "Lot 05A",
+    "primary_area": "Marshall Student Center",
+    "nearest_bull_runner_stops": [
+      "00401 - Marshall Student Center"
+    ],
+    "routes_covered": [
+      "blue",
+      "green",
+      "orange",
+      "purple",
+      "red"
+    ]
+  },
+  {
+    "lot_name": "Lot 05B",
+    "primary_area": "Castor Hall",
+    "nearest_bull_runner_stops": [
+      "00421 - North Campus Mail Center"
+    ],
+    "routes_covered": [
+      "orange",
+      "purple"
+    ]
+  },
+  {
+    "lot_name": "Lot 05D",
+    "primary_area": "Maple Hall",
+    "nearest_bull_runner_stops": [
+      "00425 - Holly Dr at Maple Suites"
+    ],
+    "routes_covered": [
+      "orange",
+      "purple"
+    ]
+  },
+  {
+    "lot_name": "Lot 05E",
+    "primary_area": "Beta Hall",
+    "nearest_bull_runner_stops": [
+      "00115 - Genshaft Dr at Maple Suites"
+    ],
+    "routes_covered": [
+      "purple"
+    ]
+  },
+  {
+    "lot_name": "Lot 06",
+    "primary_area": "Recreation Activities Center",
+    "nearest_bull_runner_stops": [
+      "00162 - Baseball Field"
+    ],
+    "routes_covered": [
+      "orange"
+    ]
+  },
+  {
+    "lot_name": "Lot 07A",
+    "primary_area": "Marshall Student Center",
+    "nearest_bull_runner_stops": [
+      "00121 - Sessums Mall"
+    ],
+    "routes_covered": [
+      "purple"
+    ]
+  },
+  {
+    "lot_name": "Lot 07B",
+    "primary_area": "Collins Blvd Garage",
+    "nearest_bull_runner_stops": [
+      "00121 - Sessums Mall"
+    ],
+    "routes_covered": [
+      "purple"
+    ]
+  },
+  {
+    "lot_name": "Lot 07C",
+    "primary_area": "Student Services Building",
+    "nearest_bull_runner_stops": [
+      "00121 - Sessums Mall"
+    ],
+    "routes_covered": [
+      "purple"
+    ]
+  },
+  {
+    "lot_name": "Lot 08A",
+    "primary_area": "Science Center",
+    "nearest_bull_runner_stops": [
+      "00209 - Science Center"
+    ],
+    "routes_covered": [
+      "green"
+    ]
+  },
+  {
+    "lot_name": "Lot 08B",
+    "primary_area": "Natural & Environmental Sciences",
+    "nearest_bull_runner_stops": [
+      "00209 - Science Center"
+    ],
+    "routes_covered": [
+      "green"
+    ]
+  },
+  {
+    "lot_name": "Lot 08C",
+    "primary_area": "Engineering",
+    "nearest_bull_runner_stops": [
+      "00204 - Research Park"
+    ],
+    "routes_covered": [
+      "green",
+      "red"
+    ]
+  },
+  {
+    "lot_name": "Lot 09A",
+    "primary_area": "Psychology & Communication Sciences",
+    "nearest_bull_runner_stops": [
+      "00221 - Psychology to MSC"
+    ],
+    "routes_covered": [
+      "green"
+    ]
+  },
+  {
+    "lot_name": "Lot 09C",
+    "primary_area": "USF Health Faculty Office Building",
+    "nearest_bull_runner_stops": [
+      "00226 - Moffit Office Building"
+    ],
+    "routes_covered": [
+      "green"
+    ]
+  },
+  {
+    "lot_name": "Lot 11",
+    "primary_area": "Alzheimers Center",
+    "nearest_bull_runner_stops": [
+      "00348 - USF Health Therapy Building"
+    ],
+    "routes_covered": [
+      "blue"
+    ]
+  },
+  {
+    "lot_name": "Lot 12",
+    "primary_area": "Northwest Education Complex",
+    "nearest_bull_runner_stops": [
+      "00348- USF Health Therapy Building"
+    ],
+    "routes_covered": [
+      "blue"
+    ]
+  },
+  {
+    "lot_name": "Lot 14",
+    "primary_area": "Receiving & Storage",
+    "nearest_bull_runner_stops": [
+      "00326 - Laurel Dr Parking Garage"
+    ],
+    "routes_covered": [
+      "blue",
+      "orange"
+    ]
+  },
+  {
+    "lot_name": "Lot 15",
+    "primary_area": "C. W. Bill Young Hall",
+    "nearest_bull_runner_stops": [
+      "00120 - CW Bill Young Hall"
+    ],
+    "routes_covered": [
+      "purple"
+    ]
+  },
+  {
+    "lot_name": "Lot 16",
+    "primary_area": "The Fit Health & Wellness Center",
+    "nearest_bull_runner_stops": [
+      "00970 - Parking Lot 56"
+    ],
+    "routes_covered": [
+      "blue",
+      "green",
+      "orange",
+      "purple"
+    ]
+  },
+  {
+    "lot_name": "Lot 17A",
+    "primary_area": "Beach at Castor",
+    "nearest_bull_runner_stops": [
+      "00116 - Genshaft Dr at Parking Lot 35"
+    ],
+    "routes_covered": [
+      "purple"
+    ]
+  },
+  {
+    "lot_name": "Lot 17B",
+    "primary_area": "Recreation Softball Complex",
+    "nearest_bull_runner_stops": [
+      "00116 - Genshaft Dr at Parking Lot 35"
+    ],
+    "routes_covered": [
+      "purple"
+    ]
+  },
+  {
+    "lot_name": "Lot 18B",
+    "primary_area": "Baseball Stadium",
+    "nearest_bull_runner_stops": [
+      "00161 - Lee Roy Selmon Athletics Center"
+    ],
+    "routes_covered": [
+      "orange"
+    ]
+  },
+  {
+    "lot_name": "Lot 18T",
+    "primary_area": "Porter Family Indoor Performance Facility",
+    "nearest_bull_runner_stops": [
+      "00154 - SycamoreDr - Stadium"
+    ],
+    "routes_covered": [
+      "orange"
+    ]
+  },
+  {
+    "lot_name": "Lot 19",
+    "primary_area": "Hope Lodge",
+    "nearest_bull_runner_stops": [
+      "00230 - Magnolia Dr at Parking Lot 19"
+    ],
+    "routes_covered": [
+      "green"
+    ]
+  },
+  {
+    "lot_name": "Lot 20",
+    "primary_area": "Cypress Apartments",
+    "nearest_bull_runner_stops": [
+      "00411 - Palm Dr at Laurel Dr"
+    ],
+    "routes_covered": [
+      "green",
+      "purple"
+    ]
+  },
+  {
+    "lot_name": "Lot 21",
+    "primary_area": "Behavioral Sciences",
+    "nearest_bull_runner_stops": [
+      "00120 - CW Bill Young Hall"
+    ],
+    "routes_covered": [
+      "purple"
+    ]
+  },
+  {
+    "lot_name": "Lot 22A",
+    "primary_area": "Yuengling Center",
+    "nearest_bull_runner_stops": [
+      "00126 - Yuengling Center west entrance"
+    ],
+    "routes_covered": [
+      "purple"
+    ]
+  },
+  {
+    "lot_name": "Lot 22D",
+    "primary_area": "Student Health & Wellness Center",
+    "nearest_bull_runner_stops": [
+      "00126 - Yuengling Center west entrance"
+    ],
+    "routes_covered": [
+      "purple"
+    ]
+  },
+  {
+    "lot_name": "Lot 22E",
+    "primary_area": "Pam & Les Muma Basketball Practice Center",
+    "nearest_bull_runner_stops": [
+      "00165 - Yuengling Center east entrance"
+    ],
+    "routes_covered": [
+      "orange"
+    ]
+  },
+  {
+    "lot_name": "Lot 23A",
+    "primary_area": "Alumni Center",
+    "nearest_bull_runner_stops": [
+      "00110 - Patel Center"
+    ],
+    "routes_covered": [
+      "orange"
+    ]
+  },
+  {
+    "lot_name": "Lot 23B",
+    "primary_area": "Dr. Kiran C. Patel Center for Global Solutions",
+    "nearest_bull_runner_stops": [
+      "00110 - Patel Center"
+    ],
+    "routes_covered": [
+      "orange"
+    ]
+  },
+  {
+    "lot_name": "Lot 23T",
+    "primary_area": "Alumni Center",
+    "nearest_bull_runner_stops": [
+      "00110 - Patel Center"
+    ],
+    "routes_covered": [
+      "orange"
+    ]
+  },
+  {
+    "lot_name": "Lot 24",
+    "primary_area": "Juniper Poplar Hall",
+    "nearest_bull_runner_stops": [
+      "00214 - Juniper - Poplar"
+    ],
+    "routes_covered": [
+      "green"
+    ]
+  },
+  {
+    "lot_name": "Lot 25",
+    "primary_area": "University Police",
+    "nearest_bull_runner_stops": [
+      "00970 - Parking Lot 56"
+    ],
+    "routes_covered": [
+      "blue",
+      "green",
+      "orange",
+      "purple"
+    ]
+  },
+  {
+    "lot_name": "Lot 26",
+    "primary_area": "University Police Building",
+    "nearest_bull_runner_stops": [
+      "00970 - Parking Lot 56"
+    ],
+    "routes_covered": [
+      "blue",
+      "green",
+      "orange",
+      "purple"
+    ]
+  },
+  {
+    "lot_name": "Lot 28",
+    "primary_area": "Post Office",
+    "nearest_bull_runner_stops": [
+      "00302 - Post Office"
+    ],
+    "routes_covered": [
+      "green",
+      "red"
+    ]
+  },
+  {
+    "lot_name": "Lot 29A",
+    "primary_area": "USF Muma College of Business",
+    "nearest_bull_runner_stops": [
+      "00102 - Library"
+    ],
+    "routes_covered": [
+      "brown",
+      "green",
+      "orange",
+      "purple",
+      "red"
+    ]
+  },
+  {
+    "lot_name": "Lot 29B",
+    "primary_area": "Library",
+    "nearest_bull_runner_stops": [
+      "00102 - Library"
+    ],
+    "routes_covered": [
+      "purple",
+      "red",
+      "orange",
+      "brown",
+      "green"
+    ]
+  },
+  {
+    "lot_name": "Lot 30",
+    "primary_area": "Shared Student Services",
+    "nearest_bull_runner_stops": [
+      "00311 - Moffit Research Center"
+    ],
+    "routes_covered": [
+      "red"
+    ]
+  },
+  {
+    "lot_name": "Lot 31",
+    "primary_area": "Student Group Learning",
+    "nearest_bull_runner_stops": [
+      "00311 - Moffit Research Center"
+    ],
+    "routes_covered": [
+      "red"
+    ]
+  },
+  {
+    "lot_name": "Lot 32",
+    "primary_area": "H. Lee Moffitt Cancer Center",
+    "nearest_bull_runner_stops": [
+      "00311 - Moffit Research Center"
+    ],
+    "routes_covered": [
+      "red"
+    ]
+  },
+  {
+    "lot_name": "Lot 33",
+    "primary_area": "Moffitt Research Center",
+    "nearest_bull_runner_stops": [
+      "00311 - Moffit Research Center"
+    ],
+    "routes_covered": [
+      "red"
+    ]
+  },
+  {
+    "lot_name": "Lot 33T",
+    "primary_area": "Moffitt Parking Garage",
+    "nearest_bull_runner_stops": [
+      "00226 - Moffit Office Building"
+    ],
+    "routes_covered": [
+      "green"
+    ]
+  },
+  {
+    "lot_name": "Lot 34",
+    "primary_area": "USF Health",
+    "nearest_bull_runner_stops": [
+      "00348 - USF Health Therapy Building"
+    ],
+    "routes_covered": [
+      "blue"
+    ]
+  },
+  {
+    "lot_name": "Lot 35",
+    "primary_area": "Varsity Tennis Courts",
+    "nearest_bull_runner_stops": [
+      "00445 - Parking Lot 35"
+    ],
+    "routes_covered": [
+      "orange"
+    ]
+  },
+  {
+    "lot_name": "Lot 36",
+    "primary_area": "USF Muma College of Business",
+    "nearest_bull_runner_stops": [
+      "00125 - Muma College of Buisness"
+    ],
+    "routes_covered": [
+      "purple"
+    ]
+  },
+  {
+    "lot_name": "Lot 37",
+    "primary_area": "Behavioral Sciences",
+    "nearest_bull_runner_stops": [
+      "00120 - CW Bill Young Hall"
+    ],
+    "routes_covered": [
+      "purple"
+    ]
+  },
+  {
+    "lot_name": "Lot 38A",
+    "primary_area": "College of Behavioral & Community Sciences",
+    "nearest_bull_runner_stops": [
+      "00346 - Chiles Center"
+    ],
+    "routes_covered": [
+      "blue"
+    ]
+  },
+  {
+    "lot_name": "Lot 38B",
+    "primary_area": "Morsani College of Medicine",
+    "nearest_bull_runner_stops": [
+      "00352 - Morsani Advanced Healthcare"
+    ],
+    "routes_covered": [
+      "blue"
+    ]
+  },
+  {
+    "lot_name": "Lot 38C",
+    "primary_area": "College of Public Health",
+    "nearest_bull_runner_stops": [
+      "00342 - College of Public Health"
+    ],
+    "routes_covered": [
+      "blue"
+    ]
+  },
+  {
+    "lot_name": "Lot 38D",
+    "primary_area": "School of Music",
+    "nearest_bull_runner_stops": [
+      "00305 - School of Music"
+    ],
+    "routes_covered": [
+      "orange",
+      "red",
+      "blue",
+      "green"
+    ]
+  },
+  {
+    "lot_name": "Lot 38E",
+    "primary_area": "Northwest Education Complex",
+    "nearest_bull_runner_stops": [
+      "00344 - Northwest Education Complex"
+    ],
+    "routes_covered": [
+      "blue"
+    ]
+  },
+  {
+    "lot_name": "Lot 38F",
+    "primary_area": "College of Nursing",
+    "nearest_bull_runner_stops": [
+      "00340 - Westside Conference Center"
+    ],
+    "routes_covered": [
+      "blue"
+    ]
+  },
+  {
+    "lot_name": "Lot 38G",
+    "primary_area": "Health Partnership Complex",
+    "nearest_bull_runner_stops": [
+      "00346 - Chiles Center"
+    ],
+    "routes_covered": [
+      "blue"
+    ]
+  },
+  {
+    "lot_name": "Lot 38H",
+    "primary_area": "Health Partnership Complex",
+    "nearest_bull_runner_stops": [
+      "00346 - Chiles Center"
+    ],
+    "routes_covered": [
+      "blue"
+    ]
+  },
+  {
+    "lot_name": "Lot 38R",
+    "primary_area": "Magnolia Apartments",
+    "nearest_bull_runner_stops": [
+      "00346 - Chiles Center"
+    ],
+    "routes_covered": [
+      "blue"
+    ]
+  },
+  {
+    "lot_name": "Lot 38T",
+    "primary_area": "Magnolia Apartments",
+    "nearest_bull_runner_stops": [
+      "00346 - Chiles Center"
+    ],
+    "routes_covered": [
+      "blue"
+    ]
+  },
+  {
+    "lot_name": "Lot 38U",
+    "primary_area": "Morsani College of Medicine",
+    "nearest_bull_runner_stops": [
+      "00352 - Morsani Advanced Healthcare"
+    ],
+    "routes_covered": [
+      "blue"
+    ]
+  },
+  {
+    "lot_name": "Lot 39A",
+    "primary_area": "Health Partnership Complex",
+    "nearest_bull_runner_stops": [
+      "00352 - Morsani Advanced Healthcare"
+    ],
+    "routes_covered": [
+      "blue"
+    ]
+  },
+  {
+    "lot_name": "Lot 39B",
+    "primary_area": "Health Partnership Complex",
+    "nearest_bull_runner_stops": [
+      "00352 - Morsani Advanced Healthcare"
+    ],
+    "routes_covered": [
+      "blue"
+    ]
+  },
+  {
+    "lot_name": "Lot 40",
+    "primary_area": "Educational Research Center",
+    "nearest_bull_runner_stops": [
+      "00165 - Yuengling Center east entrance"
+    ],
+    "routes_covered": [
+      "orange"
+    ]
+  },
+  {
+    "lot_name": "Lot 41",
+    "primary_area": "Human Services Building",
+    "nearest_bull_runner_stops": [
+      "00121 - Sessums Mall"
+    ],
+    "routes_covered": [
+      "purple"
+    ]
+  },
+  {
+    "lot_name": "Lot 42",
+    "primary_area": "USF Health Faculty Office Building",
+    "nearest_bull_runner_stops": [
+      "00312 - USF Health Faculty Office Building"
+    ],
+    "routes_covered": [
+      "red",
+      "blue"
+    ]
+  },
+  {
+    "lot_name": "Lot 43",
+    "primary_area": "Auxiliary Services",
+    "nearest_bull_runner_stops": [
+      "00312 - USF Health Faculty Office Building"
+    ],
+    "routes_covered": [
+      "red",
+      "blue"
+    ]
+  },
+  {
+    "lot_name": "Lot 44",
+    "primary_area": "The Hub",
+    "nearest_bull_runner_stops": [
+      "00966 - The Hub"
+    ],
+    "routes_covered": [
+      "purple",
+      "orange",
+      "blue",
+      "green"
+    ]
+  },
+  {
+    "lot_name": "Lot 45",
+    "primary_area": "Theatre Centre",
+    "nearest_bull_runner_stops": [
+      "00401 - Marshall Student Center"
+    ],
+    "routes_covered": [
+      "blue",
+      "green",
+      "orange",
+      "purple",
+      "red"
+    ]
+  },
+  {
+    "lot_name": "Lot 46",
+    "primary_area": "Psychology & Communication Sciences",
+    "nearest_bull_runner_stops": [
+      "00230 - Magnolia Dr at Parking Lot 19"
+    ],
+    "routes_covered": [
+      "green"
+    ]
+  },
+  {
+    "lot_name": "Lot 47",
+    "primary_area": "USF Botanical Gardens",
+    "nearest_bull_runner_stops": [
+      "00239 - Magnolia Field Complex"
+    ],
+    "routes_covered": [
+      "red"
+    ]
+  },
+  {
+    "lot_name": "Lot 47A",
+    "primary_area": "Magnolia Apartments",
+    "nearest_bull_runner_stops": [
+      "00239 - Magnolia Field Complex"
+    ],
+    "routes_covered": [
+      "red"
+    ]
+  },
+  {
+    "lot_name": "Lot 48",
+    "primary_area": "Botanical Garden",
+    "nearest_bull_runner_stops": [
+      "00241 - Botanical Gardens to Library"
+    ],
+    "routes_covered": [
+      "red"
+    ]
+  },
+  {
+    "lot_name": "Lot 50",
+    "primary_area": "Greek Village",
+    "nearest_bull_runner_stops": [
+      "00446 - Greek Park"
+    ],
+    "routes_covered": [
+      "orange"
+    ]
+  },
+  {
+    "lot_name": "Lot 51",
+    "primary_area": "Greek Village",
+    "nearest_bull_runner_stops": [
+      "00446 - Greek Park"
+    ],
+    "routes_covered": [
+      "orange"
+    ]
+  },
+  {
+    "lot_name": "Lot 52",
+    "primary_area": "Greek Village",
+    "nearest_bull_runner_stops": [
+      "00446 - Greek Park"
+    ],
+    "routes_covered": [
+      "orange"
+    ]
+  },
+  {
+    "lot_name": "Lot 52T",
+    "primary_area": "Greek Village",
+    "nearest_bull_runner_stops": [
+      "00446 - Greek Park"
+    ],
+    "routes_covered": [
+      "orange"
+    ]
+  },
+  {
+    "lot_name": "Lot 53",
+    "primary_area": "Greek Village",
+    "nearest_bull_runner_stops": [
+      "00446 - Greek Park"
+    ],
+    "routes_covered": [
+      "orange"
+    ]
+  },
+  {
+    "lot_name": "Lot 56",
+    "primary_area": "The Fit Health & Wellness Center",
+    "nearest_bull_runner_stops": [
+      "00970 - Parking Lot 56"
+    ],
+    "routes_covered": [
+      "purple",
+      "orange",
+      "blue",
+      "green"
+    ]
+  },
+  {
+    "lot_name": "Lot Apple",
+    "primary_area": "USF Apple Drive",
+    "nearest_bull_runner_stops": [
+      "00102 - Library"
+    ],
+    "routes_covered": [
+      "brown",
+      "green",
+      "orange",
+      "purple",
+      "red"
+    ]
+  },
+  {
+    "lot_name": "Lot CIC",
+    "primary_area": "Campus Information Center",
+    "nearest_bull_runner_stops": [
+      "00108 - Alumni Center"
+    ],
+    "routes_covered": [
+      "orange",
+      "purple"
+    ]
+  },
+  {
+    "lot_name": "Lot Cedar Drive",
+    "primary_area": "USF Cedar Circle",
+    "nearest_bull_runner_stops": [
+      "00401 - Marshall Student Center"
+    ],
+    "routes_covered": [
+      "blue",
+      "green",
+      "orange",
+      "purple",
+      "red"
+    ]
+  },
+  {
+    "lot_name": "Lot Intramural Field",
+    "primary_area": "Recreation Softball Complex",
+    "nearest_bull_runner_stops": [
+      "00161 - Lee Roy Selmon Athletics Center"
+    ],
+    "routes_covered": [
+      "orange"
+    ]
+  },
+  {
+    "lot_name": "Lot Life Science Annex",
+    "primary_area": "Life Science Annex",
+    "nearest_bull_runner_stops": [
+      "00209 - Science Center"
+    ],
+    "routes_covered": [
+      "green"
+    ]
+  },
+  {
+    "lot_name": "Lot Morsani Service Area",
+    "primary_area": "Morsani College of Medicine",
+    "nearest_bull_runner_stops": [
+      "00352 - Morsani Advanced Healthcare"
+    ],
+    "routes_covered": [
+      "blue"
+    ]
+  },
+  {
+    "lot_name": "Lot Sago Drive",
+    "primary_area": "USF Sago Drive",
+    "nearest_bull_runner_stops": [
+      "00108 - Alumni Center"
+    ],
+    "routes_covered": [
+      "purple",
+      "orange"
+    ]
+  },
+  {
+    "lot_name": "Lot Varsity Tennis Court",
+    "primary_area": "Varsity Tennis Courts",
+    "nearest_bull_runner_stops": [
+      "00445 - Parking Lot 35"
+    ],
+    "routes_covered": [
+      "orange"
+    ]
+  }
+]
