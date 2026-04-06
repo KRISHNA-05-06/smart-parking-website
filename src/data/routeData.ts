@@ -39,8 +39,14 @@ export const routeData = [
   {
     lotName: "Lot 02A",
     primaryArea: "Library",
-    nearestBullRunnerStop: "00102 - Library",
+    nearestBullRunnerStop: "00101 - Math & Engineering",
     routes: ["brown", "green", "orange", "purple", "red"]
+  },
+  {
+    lotName: "Lot 02C",
+    primaryArea: "Multidisciplinary Sciences",
+    nearestBullRunnerStop: "00101 - Math & Engineering",
+    routes: ["purple", "green", "brown", "orange", "red"]
   },
 
   // 03-series lots - Marshall Center area
@@ -66,6 +72,12 @@ export const routeData = [
     lotName: "Lot 03D",
     primaryArea: "Fine Arts",
     nearestBullRunnerStop: "00303 - Fine Arts Studio",
+    routes: ["blue", "green", "orange", "red"]
+  },
+  {
+    lotName: "Lot 03E",
+    primaryArea: "School of Music",
+    nearestBullRunnerStop: "00305 - School of Music",
     routes: ["blue", "green", "orange", "red"]
   },
 
@@ -509,9 +521,9 @@ export const routeData = [
   },
   {
     lotName: "Lot 45",
-    primaryArea: "Theatre Centre",
-    nearestBullRunnerStop: "00401 - Marshall Student Center",
-    routes: ["blue", "green", "orange", "purple", "red"]
+    primaryArea: "USF Patel Partnership School",
+    nearestBullRunnerStop: "00165 - Yuengling Center east entrance",
+    routes: ["orange"]
   },
   {
     lotName: "Lot 46",

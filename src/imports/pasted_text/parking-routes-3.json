@@ -1,0 +1,681 @@
+[
+    {
+        "primary_area":"Engineering",
+        "lot_name":"Richard A. Beard Garage",
+        "Nearest Bull Runner Stops":"00206 - University Technology Center",
+        "Routes Covered at that Stops (ex: purple, green etc)":"green, red",
+        "nearby parking lots":"Lot 08A, Lot 08B"
+    },
+    {
+        "primary_area":"Library",
+        "lot_name":"Collins Blvd Garage",
+        "Nearest Bull Runner Stops":"00102 - Library",
+        "Routes Covered at that Stops (ex: purple, green etc)":"brown, green, orange, purple, red ",
+        "nearby parking lots":"Lot 01, Lot 07C, Lot 07A, Lot 07B"
+    },
+    {
+        "primary_area":"USF Health",
+        "lot_name":"Laurel Drive Garage",
+        "Nearest Bull Runner Stops":"00326 - Laurel Dr Parking Garage",
+        "Routes Covered at that Stops (ex: purple, green etc)":"blue, orange ",
+        "nearby parking lots":"Lot 42"
+    },
+    {
+        "primary_area":"The Village",
+        "lot_name":"Crescent Hill Garage",
+        "Nearest Bull Runner Stops":"00418 - The Village Holly Dr entrance",
+        "Routes Covered at that Stops (ex: purple, green etc)":"orange, purple ",
+        "nearby parking lots":"Lot 05A"
+    },
+    {
+        "primary_area":"Education",
+        "lot_name":"Lot 01",
+        "Nearest Bull Runner Stops":"00102 - Library",
+        "Routes Covered at that Stops (ex: purple, green etc)":"brown, green, orange, purple, red ",
+        "nearby parking lots":"Collins Blvd Garage, Lot 07B"
+    },
+    {
+        "primary_area":"Library",
+        "lot_name":"Lot 02A",
+        "Nearest Bull Runner Stops":"00101 - Math & Engineering",
+        "Routes Covered at that Stops (ex: purple, green etc)":"brown, green, orange, purple, red ",
+        "nearby parking lots":"Lot 02C"
+    },
+    {
+        "primary_area":"Multidisciplinary Science",
+        "lot_name":"Lot 02C",
+        "Nearest Bull Runner Stops":"00101 - Math & Engineering",
+        "Routes Covered at that Stops (ex: purple, green etc)":"brown, green, orange, purple, red ",
+        "nearby parking lots":"Lot 02A"
+    },
+    {
+        "primary_area":"Marshall Student Center",
+        "lot_name":"Lot 03A",
+        "Nearest Bull Runner Stops":"00401 - Marshall Student Center",
+        "Routes Covered at that Stops (ex: purple, green etc)":"blue, green, orange, purple, red ",
+        "nearby parking lots":"Lot 03B, Lot 03C"
+    },
+    {
+        "primary_area":"Marshall Student Center",
+        "lot_name":"Lot 03B",
+        "Nearest Bull Runner Stops":"00401 - Marshall Student Center",
+        "Routes Covered at that Stops (ex: purple, green etc)":"blue, green, orange, purple, red ",
+        "nearby parking lots":"Lot 03A, Lot 03C"
+    },
+    {
+        "primary_area":"Marshall Student Center",
+        "lot_name":"Lot 03C",
+        "Nearest Bull Runner Stops":"00304 - Marshall Student Center",
+        "Routes Covered at that Stops (ex: purple, green etc)":"blue, green, orange, red ",
+        "nearby parking lots":"Lot 03A, Lot 03B, Lot 03D"
+    },
+    {
+        "primary_area":"Fine Arts Studio",
+        "lot_name":"Lot 03D",
+        "Nearest Bull Runner Stops":"00303 - Fine Arts Studio",
+        "Routes Covered at that Stops (ex: purple, green etc)":"blue, green, orange, red ",
+        "nearby parking lots":"Lot 03C, Lot 03E"
+    },
+    {
+        "primary_area":"School of Music",
+        "lot_name":"Lot 03E",
+        "Nearest Bull Runner Stops":"00305 - School of Music",
+        "Routes Covered at that Stops (ex: purple, green etc)":"blue, green, orange, red ",
+        "nearby parking lots":"Lot 03D"
+    },
+    {
+        "primary_area":"Post Office",
+        "lot_name":"Lot 04",
+        "Nearest Bull Runner Stops":"00302 - Post Office",
+        "Routes Covered at that Stops (ex: purple, green etc)":"green, red ",
+        "nearby parking lots":"Lot 03A, Lot 03B"
+    },
+    {
+        "primary_area":"Marshall Student Center",
+        "lot_name":"Lot 05A",
+        "Nearest Bull Runner Stops":"00401 - Marshall Student Center",
+        "Routes Covered at that Stops (ex: purple, green etc)":"blue, green, orange, purple, red ",
+        "nearby parking lots":"Crescent Hill Garage"
+    },
+    {
+        "primary_area":"Argos Center",
+        "lot_name":"Lot 05B",
+        "Nearest Bull Runner Stops":"00421 - North Campus Mail Center",
+        "Routes Covered at that Stops (ex: purple, green etc)":"orange, purple ",
+        "nearby parking lots":"Lot 17A"
+    },
+    {
+        "primary_area":"Maple Hall",
+        "lot_name":"Lot 05D",
+        "Nearest Bull Runner Stops":"00425 - Holly Dr at Maple Suites",
+        "Routes Covered at that Stops (ex: purple, green etc)":"orange, purple ",
+        "nearby parking lots":"Lot 05D"
+    },
+    {
+        "primary_area":"Beta Hall",
+        "lot_name":"Lot 05E",
+        "Nearest Bull Runner Stops":"00115 - Genshaft Dr at Maple Suites",
+        "Routes Covered at that Stops (ex: purple, green etc)":"purple",
+        "nearby parking lots":"Lot  05D, Lot 17B"
+    },
+    {
+        "primary_area":"Recreation Activities Center",
+        "lot_name":"Lot 06",
+        "Nearest Bull Runner Stops":"00162 - Baseball Field",
+        "Routes Covered at that Stops (ex: purple, green etc)":"orange",
+        "nearby parking lots":"Lot 15"
+    },
+    {
+        "primary_area":"Behavioral Sciences",
+        "lot_name":"Lot 07A",
+        "Nearest Bull Runner Stops":"00121 - Sessums Mall",
+        "Routes Covered at that Stops (ex: purple, green etc)":"purple",
+        "nearby parking lots":"Collins Blvd Garage, Lot 07B, Lot 07C"
+    },
+    {
+        "primary_area":"Faculty Office Building",
+        "lot_name":"Lot 07B",
+        "Nearest Bull Runner Stops":"00121 - Sessums Mall",
+        "Routes Covered at that Stops (ex: purple, green etc)":"purple",
+        "nearby parking lots":"Collins Blvd Garage, Lot 07A, Lot 07C, Lot 01"
+    },
+    {
+        "primary_area":"Student Services Building",
+        "lot_name":"Lot 07C",
+        "Nearest Bull Runner Stops":"00121 - Sessums Mall",
+        "Routes Covered at that Stops (ex: purple, green etc)":"purple",
+        "nearby parking lots":"Collins Blvd Garage, Lot 07A, Lot 07B"
+    },
+    {
+        "primary_area":"Science Center",
+        "lot_name":"Lot 08A",
+        "Nearest Bull Runner Stops":"00209 - Science Center",
+        "Routes Covered at that Stops (ex: purple, green etc)":"green",
+        "nearby parking lots":"Lot 08B, lot 24"
+    },
+    {
+        "primary_area":"Juniper Poplar Hall",
+        "lot_name":"Lot 08B",
+        "Nearest Bull Runner Stops":"00209 - Science Center",
+        "Routes Covered at that Stops (ex: purple, green etc)":"green",
+        "nearby parking lots":"Richard A. Beard Garage, Lot 08A, Lot 24"
+    },
+    {
+        "primary_area":"Engineering",
+        "lot_name":"Lot 08C",
+        "Nearest Bull Runner Stops":"00204 - Research Park",
+        "Routes Covered at that Stops (ex: purple, green etc)":"green, red ",
+        "nearby parking lots":"Lot 02C"
+    },
+    {
+        "primary_area":"Psychology & Communication Sciences",
+        "lot_name":"Lot 09A",
+        "Nearest Bull Runner Stops":"00221 - Psychology to MSC",
+        "Routes Covered at that Stops (ex: purple, green etc)":"green",
+        "nearby parking lots":"Lot 46"
+    },
+    {
+        "primary_area":"USF Health Faculty Office Building",
+        "lot_name":"Lot 09C",
+        "Nearest Bull Runner Stops":"00226 - Moffit Office Building",
+        "Routes Covered at that Stops (ex: purple, green etc)":"green",
+        "nearby parking lots":"Lot 42"
+    },
+    {
+        "primary_area":"Alzheimers Center",
+        "lot_name":"Lot 11",
+        "Nearest Bull Runner Stops":"00348 - USF Health Therapy Building",
+        "Routes Covered at that Stops (ex: purple, green etc)":"blue",
+        "nearby parking lots":"Lot 12"
+    },
+    {
+        "primary_area":"Psychiatry School of Physical Therapy",
+        "lot_name":"Lot 12",
+        "Nearest Bull Runner Stops":"00348- USF Health Therapy Building",
+        "Routes Covered at that Stops (ex: purple, green etc)":"blue",
+        "nearby parking lots":"Lot 11"
+    },
+    {
+        "primary_area":"Parking & Transportation Services",
+        "lot_name":"Lot 14",
+        "Nearest Bull Runner Stops":"00326 - Laurel Dr Parking Garage",
+        "Routes Covered at that Stops (ex: purple, green etc)":"blue, orange ",
+        "nearby parking lots":"Lot 42"
+    },
+    {
+        "primary_area":"C. W. Bill Young Hall",
+        "lot_name":"Lot 15",
+        "Nearest Bull Runner Stops":"00120 - CW Bill Young Hall",
+        "Routes Covered at that Stops (ex: purple, green etc)":"purple",
+        "nearby parking lots":"Lot 41, Lot 21, Lot 06, Lot 37"
+    },
+    {
+        "primary_area":"The Fit Health & Wellness Center",
+        "lot_name":"Lot 16",
+        "Nearest Bull Runner Stops":"00970 - Parking Lot 56",
+        "Routes Covered at that Stops (ex: purple, green etc)":"blue, green, orange, purple",
+        "nearby parking lots":"Lot 56, Lot 25"
+    },
+    {
+        "primary_area":"Beach at Castor",
+        "lot_name":"Lot 17A",
+        "Nearest Bull Runner Stops":"00116 - Genshaft Dr at Parking Lot 35",
+        "Routes Covered at that Stops (ex: purple, green etc)":"purple",
+        "nearby parking lots":"Lot 17B, Lot 37, Lot 07A, Lot 05B"
+    },
+    {
+        "primary_area":"Social Sciences",
+        "lot_name":"Lot 17B",
+        "Nearest Bull Runner Stops":"00116 - Genshaft Dr at Parking Lot 35",
+        "Routes Covered at that Stops (ex: purple, green etc)":"purple",
+        "nearby parking lots":"Lot 17A, Lot 37, Lot 05E"
+    },
+    {
+        "primary_area":"Baseball Stadium",
+        "lot_name":"Lot 18B",
+        "Nearest Bull Runner Stops":"00161 - Lee Roy Selmon Athletics Center",
+        "Routes Covered at that Stops (ex: purple, green etc)":"orange",
+        "nearby parking lots":"Lot 18T"
+    },
+    {
+        "primary_area":"Porter Family Indoor Performance Facility",
+        "lot_name":"Lot 18T",
+        "Nearest Bull Runner Stops":"00154 - SycamoreDr - Stadium",
+        "Routes Covered at that Stops (ex: purple, green etc)":"orange",
+        "nearby parking lots":"Lot 18A"
+    },
+    {
+        "primary_area":"Hope Lodge",
+        "lot_name":"Lot 19",
+        "Nearest Bull Runner Stops":"00230 - Magnolia Dr at Parking Lot 19",
+        "Routes Covered at that Stops (ex: purple, green etc)":"green",
+        "nearby parking lots":"Lot 46, Lot 24, Lot 09A"
+    },
+    {
+        "primary_area":"Teco Substation",
+        "lot_name":"Lot 20",
+        "Nearest Bull Runner Stops":"00411 - Palm Dr at Laurel Dr",
+        "Routes Covered at that Stops (ex: purple, green etc)":"green, purple",
+        "nearby parking lots":"Lot 44"
+    },
+    {
+        "primary_area":"CW Bill Young Hall",
+        "lot_name":"Lot 21",
+        "Nearest Bull Runner Stops":"00120 - CW Bill Young Hall",
+        "Routes Covered at that Stops (ex: purple, green etc)":"purple",
+        "nearby parking lots":"Lot 37, Lot 17B, Lot 15"
+    },
+    {
+        "primary_area":"Yuengling Center",
+        "lot_name":"Lot 22A",
+        "Nearest Bull Runner Stops":"00126 - Yuengling Center west entrance",
+        "Routes Covered at that Stops (ex: purple, green etc)":"purple",
+        "nearby parking lots":"Lot 22D, Lot 22E, Lot 22F, Lot 06"
+    },
+    {
+        "primary_area":"Student Health & Wellness Center",
+        "lot_name":"Lot 22D",
+        "Nearest Bull Runner Stops":"00126 - Yuengling Center west entrance",
+        "Routes Covered at that Stops (ex: purple, green etc)":"purple",
+        "nearby parking lots":"Lot 22A, Lot 22E, Lot 22F, Lot 06"
+    },
+    {
+        "primary_area":"Yuengling Center",
+        "lot_name":"Lot 22E",
+        "Nearest Bull Runner Stops":"00165 - Yuengling Center east entrance",
+        "Routes Covered at that Stops (ex: purple, green etc)":"orange",
+        "nearby parking lots":"Lot 22A, Lot 22D, Lot 22F, Lot 06"
+    },
+    {
+        "primary_area":"Yuengling Center",
+        "lot_name":"Lot 22F",
+        "Nearest Bull Runner Stops":"00165 - Yuengling Center east entrance",
+        "Routes Covered at that Stops (ex: purple, green etc)":"orange",
+        "nearby parking lots":"Lot 22A, Lot 22D, Lot 22E, Lot 06"
+    },
+    {
+        "primary_area":"Alumni Center",
+        "lot_name":"Lot 23A",
+        "Nearest Bull Runner Stops":"00110 - Patel Center",
+        "Routes Covered at that Stops (ex: purple, green etc)":"orange",
+        "nearby parking lots":"Lot 23B, Lot 23T"
+    },
+    {
+        "primary_area":"Dr. Kiran C. Patel Center for Global Solutions",
+        "lot_name":"Lot 23B",
+        "Nearest Bull Runner Stops":"00110 - Patel Center",
+        "Routes Covered at that Stops (ex: purple, green etc)":"orange",
+        "nearby parking lots":"Lot 23A, Lot 23T"
+    },
+    {
+        "primary_area":"Alumni Center",
+        "lot_name":"Lot 23T",
+        "Nearest Bull Runner Stops":"00110 - Patel Center",
+        "Routes Covered at that Stops (ex: purple, green etc)":"orange",
+        "nearby parking lots":"Lot 23A, Lot 23B"
+    },
+    {
+        "primary_area":"Juniper Poplar Hall",
+        "lot_name":"Lot 24",
+        "Nearest Bull Runner Stops":"00214 - Juniper - Poplar",
+        "Routes Covered at that Stops (ex: purple, green etc)":"green",
+        "nearby parking lots":"Richard A. Beard Garage,Lot 08A, Lot 08B, Lot 47, Lot 47A"
+    },
+    {
+        "primary_area":"Cypress Apartments",
+        "lot_name":"Lot 25",
+        "Nearest Bull Runner Stops":"00970 - Parking Lot 56",
+        "Routes Covered at that Stops (ex: purple, green etc)":"blue, green, orange, purple",
+        "nearby parking lots":"Lot 56, Lot 16, Lot 26"
+    },
+    {
+        "primary_area":"University Police Building",
+        "lot_name":"Lot 26",
+        "Nearest Bull Runner Stops":"00970 - Parking Lot 56",
+        "Routes Covered at that Stops (ex: purple, green etc)":"blue, green, orange, purple",
+        "nearby parking lots":"Lot 50, Lot 25"
+    },
+    {
+        "primary_area":"Post Office",
+        "lot_name":"Lot 28",
+        "Nearest Bull Runner Stops":"00302 - Post Office",
+        "Routes Covered at that Stops (ex: purple, green etc)":"green, red ",
+        "nearby parking lots":"Lot 04, Lot 03A, Lot 03B, Lot 03C"
+    },
+    {
+        "primary_area":"Communication and Information Sciences",
+        "lot_name":"Lot 29A",
+        "Nearest Bull Runner Stops":"00102 - Library",
+        "Routes Covered at that Stops (ex: purple, green etc)":"brown, green, orange, purple, red ",
+        "nearby parking lots":"Lot 29B, Lot 36"
+    },
+    {
+        "primary_area":"Library",
+        "lot_name":"Lot 29B",
+        "Nearest Bull Runner Stops":"00102 - Library",
+        "Routes Covered at that Stops (ex: purple, green etc)":"purple, red, orange, brown, green",
+        "nearby parking lots":"Lot 29A, Lot 36"
+    },
+    {
+        "primary_area":"Shared Student Services",
+        "lot_name":"Lot 30",
+        "Nearest Bull Runner Stops":"00311 - Moffit Research Center",
+        "Routes Covered at that Stops (ex: purple, green etc)":"red",
+        "nearby parking lots":"Lot 31"
+    },
+    {
+        "primary_area":"Student Group Learning",
+        "lot_name":"Lot 31",
+        "Nearest Bull Runner Stops":"00311 - Moffit Research Center",
+        "Routes Covered at that Stops (ex: purple, green etc)":"red",
+        "nearby parking lots":"Lot 32, Lot 39A, Lot 33"
+    },
+    {
+        "primary_area":"H. Lee Moffitt Cancer Center",
+        "lot_name":"Lot 32",
+        "Nearest Bull Runner Stops":"00311 - Moffit Research Center",
+        "Routes Covered at that Stops (ex: purple, green etc)":"red",
+        "nearby parking lots":"Lot 31, Lot 39A, Lot 33"
+    },
+    {
+        "primary_area":"Moffitt Research Center",
+        "lot_name":"Lot 33",
+        "Nearest Bull Runner Stops":"00311 - Moffit Research Center",
+        "Routes Covered at that Stops (ex: purple, green etc)":"red",
+        "nearby parking lots":"Lot 34, Lot 33T, Lot 32"
+    },
+    {
+        "primary_area":"Moffitt Parking Garage",
+        "lot_name":"Lot 33T",
+        "Nearest Bull Runner Stops":"00226 - Moffit Office Building",
+        "Routes Covered at that Stops (ex: purple, green etc)":"green",
+        "nearby parking lots":"Lot 33, Lot 34"
+    },
+    {
+        "primary_area":"College of Nursing",
+        "lot_name":"Lot 34",
+        "Nearest Bull Runner Stops":"00348 - USF Health Therapy Building",
+        "Routes Covered at that Stops (ex: purple, green etc)":"blue",
+        "nearby parking lots":"Lot 33, Lot 33T, Lot 38F"
+    },
+    {
+        "primary_area":"Varsity Tennis Courts",
+        "lot_name":"Lot 35",
+        "Nearest Bull Runner Stops":"00445 - Parking Lot 35",
+        "Routes Covered at that Stops (ex: purple, green etc)":"orange",
+        "nearby parking lots":"Lot 5E"
+    },
+    {
+        "primary_area":"USF Muma College of Business",
+        "lot_name":"Lot 36",
+        "Nearest Bull Runner Stops":"00125 - Muma College of Buisness",
+        "Routes Covered at that Stops (ex: purple, green etc)":"purple",
+        "nearby parking lots":"Lot 29A, Lot 29B"
+    },
+    {
+        "primary_area":"Behavioral Sciences",
+        "lot_name":"Lot 37",
+        "Nearest Bull Runner Stops":"00120 - CW Bill Young Hall",
+        "Routes Covered at that Stops (ex: purple, green etc)":"purple",
+        "nearby parking lots":"Lot 17A, Lot 17B, Lot 21, Lot 15, Lot 7A, Lot 7B"
+    },
+    {
+        "primary_area":"College of Behavioral & Community Sciences",
+        "lot_name":"Lot 38A",
+        "Nearest Bull Runner Stops":"00346 - Chiles Center",
+        "Routes Covered at that Stops (ex: purple, green etc)":"blue",
+        "nearby parking lots":"Lot 38T, Lot 38G, Lot 38U, Lot 38R, Lot 38D"
+    },
+    {
+        "primary_area":"College of Public Health",
+        "lot_name":"Lot 38B",
+        "Nearest Bull Runner Stops":"00352 - Morsani Advanced Healthcare",
+        "Routes Covered at that Stops (ex: purple, green etc)":"blue",
+        "nearby parking lots":"Lot 38C, Lot 38F"
+    },
+    {
+        "primary_area":"Northwest Education Complex",
+        "lot_name":"Lot 38C",
+        "Nearest Bull Runner Stops":"00342 - College of Public Health",
+        "Routes Covered at that Stops (ex: purple, green etc)":"blue",
+        "nearby parking lots":"Lot 38B, Lot 38H"
+    },
+    {
+        "primary_area":"College of Behavioral & Community Sciences",
+        "lot_name":"Lot 38D",
+        "Nearest Bull Runner Stops":"00305 - School of Music",
+        "Routes Covered at that Stops (ex: purple, green etc)":"orange, red, blue, green",
+        "nearby parking lots":"Lot 38G, Lot 38E, Lot 38A"
+    },
+    {
+        "primary_area":"College of Behavioral & Community Sciences",
+        "lot_name":"Lot 38E",
+        "Nearest Bull Runner Stops":"00344 - Northwest Education Complex",
+        "Routes Covered at that Stops (ex: purple, green etc)":"blue",
+        "nearby parking lots":"Lot 38D, Lot 38F"
+    },
+    {
+        "primary_area":"Westside Conference Center",
+        "lot_name":"Lot 38F",
+        "Nearest Bull Runner Stops":"00340 - Westside Conference Center",
+        "Routes Covered at that Stops (ex: purple, green etc)":"blue",
+        "nearby parking lots":"Lot 38E, Lot 38B"
+    },
+    {
+        "primary_area":"College of Behavioral & Community Sciences",
+        "lot_name":"Lot 38G",
+        "Nearest Bull Runner Stops":"00346 - Chiles Center",
+        "Routes Covered at that Stops (ex: purple, green etc)":"blue",
+        "nearby parking lots":"Lot 38A, Lot 38D, Lot 38T"
+    },
+    {
+        "primary_area":"Northwest Education Complex",
+        "lot_name":"Lot 38H",
+        "Nearest Bull Runner Stops":"00346 - Chiles Center",
+        "Routes Covered at that Stops (ex: purple, green etc)":"blue",
+        "nearby parking lots":"Lot 38C"
+    },
+    {
+        "primary_area":"College of Behavioral & Community Sciences",
+        "lot_name":"Lot 38R",
+        "Nearest Bull Runner Stops":"00346 - Chiles Center",
+        "Routes Covered at that Stops (ex: purple, green etc)":"blue",
+        "nearby parking lots":"Lot 38A, Lot 38D, Lot 38G, Lot 38T, Lot 38U"
+    },
+    {
+        "primary_area":"College of Behavioral & Community Sciences",
+        "lot_name":"Lot 38T",
+        "Nearest Bull Runner Stops":"00346 - Chiles Center",
+        "Routes Covered at that Stops (ex: purple, green etc)":"blue",
+        "nearby parking lots":"Lot 38A, Lot 38G, Lot 38U"
+    },
+    {
+        "primary_area":"USF Family Center",
+        "lot_name":"Lot 38U",
+        "Nearest Bull Runner Stops":"00352 - Morsani Advanced Healthcare",
+        "Routes Covered at that Stops (ex: purple, green etc)":"blue",
+        "nearby parking lots":"Lot 38A"
+    },
+    {
+        "primary_area":"Health Partnership Complex",
+        "lot_name":"Lot 39A",
+        "Nearest Bull Runner Stops":"00352 - Morsani Advanced Healthcare",
+        "Routes Covered at that Stops (ex: purple, green etc)":"blue",
+        "nearby parking lots":"Lot 39B"
+    },
+    {
+        "primary_area":"Health Partnership Complex",
+        "lot_name":"Lot 39B",
+        "Nearest Bull Runner Stops":"00352 - Morsani Advanced Healthcare",
+        "Routes Covered at that Stops (ex: purple, green etc)":"blue",
+        "nearby parking lots":"Lot 39A"
+    },
+    {
+        "primary_area":"Educational Research Center",
+        "lot_name":"Lot 40",
+        "Nearest Bull Runner Stops":"00165 - Yuengling Center east entrance",
+        "Routes Covered at that Stops (ex: purple, green etc)":"orange",
+        "nearby parking lots":"Lot 22F, Lot 45"
+    },
+    {
+        "primary_area":"Human Services Building",
+        "lot_name":"Lot 41",
+        "Nearest Bull Runner Stops":"00121 - Sessums Mall",
+        "Routes Covered at that Stops (ex: purple, green etc)":"purple",
+        "nearby parking lots":"Lot 15, Lot 21, Lot 37"
+    },
+    {
+        "primary_area":"USF Health Faculty Office Building",
+        "lot_name":"Lot 42",
+        "Nearest Bull Runner Stops":"00312 - USF Health Faculty Office Building",
+        "Routes Covered at that Stops (ex: purple, green etc)":"red, blue",
+        "nearby parking lots":"Laurel Drive Garage, Lot 14, Lot 09C"
+    },
+    {
+        "primary_area":"Alzheimers Center",
+        "lot_name":"Lot 43",
+        "Nearest Bull Runner Stops":"00328 - Park and Ride Lot 43 West",
+        "Routes Covered at that Stops (ex: purple, green etc)":"orange, blue",
+        "nearby parking lots":"Lot 44"
+    },
+    {
+        "primary_area":"Testbed Assistive Rehabilitative Robotics",
+        "lot_name":"Lot 44",
+        "Nearest Bull Runner Stops":"00328 - Park and Ride Lot 43 West",
+        "Routes Covered at that Stops (ex: purple, green etc)":"orange, blue",
+        "nearby parking lots":"Lot 20, Lot 43"
+    },
+    {
+        "primary_area":"USF Patel Partnership School",
+        "lot_name":"Lot 45",
+        "Nearest Bull Runner Stops":"00165 - Yuengling Center east entrance",
+        "Routes Covered at that Stops (ex: purple, green etc)":"orange",
+        "nearby parking lots":"Lot 40"
+    },
+    {
+        "primary_area":"Psychology & Communication Sciences",
+        "lot_name":"Lot 46",
+        "Nearest Bull Runner Stops":"00230 - Magnolia Dr at Parking Lot 19",
+        "Routes Covered at that Stops (ex: purple, green etc)":"green",
+        "nearby parking lots":"Lot 9A, Lot 19"
+    },
+    {
+        "primary_area":"Magnolia Field Complex",
+        "lot_name":"Lot 47",
+        "Nearest Bull Runner Stops":"00239 - Magnolia Field Complex",
+        "Routes Covered at that Stops (ex: purple, green etc)":"red",
+        "nearby parking lots":"Lot 47A"
+    },
+    {
+        "primary_area":"Magnolia Apartments",
+        "lot_name":"Lot 47A",
+        "Nearest Bull Runner Stops":"00239 - Magnolia Field Complex",
+        "Routes Covered at that Stops (ex: purple, green etc)":"red",
+        "nearby parking lots":"Lot 47"
+    },
+    {
+        "primary_area":"Botanical Garden",
+        "lot_name":"Lot 48",
+        "Nearest Bull Runner Stops":"00241 - Botanical Gardens to Library",
+        "Routes Covered at that Stops (ex: purple, green etc)":"red",
+        "nearby parking lots":null
+    },
+    {
+        "primary_area":"Greek Village",
+        "lot_name":"Lot 50",
+        "Nearest Bull Runner Stops":"00446 - Greek Park",
+        "Routes Covered at that Stops (ex: purple, green etc)":"orange",
+        "nearby parking lots":"Lot 51, Lot 26, "
+    },
+    {
+        "primary_area":"Greek Village",
+        "lot_name":"Lot 51",
+        "Nearest Bull Runner Stops":"00446 - Greek Park",
+        "Routes Covered at that Stops (ex: purple, green etc)":"orange",
+        "nearby parking lots":"Lot 50, Lot 52, Lot 52T"
+    },
+    {
+        "primary_area":"Greek Village",
+        "lot_name":"Lot 52",
+        "Nearest Bull Runner Stops":"00446 - Greek Park",
+        "Routes Covered at that Stops (ex: purple, green etc)":"orange",
+        "nearby parking lots":"Lot 51, Lot 52T"
+    },
+    {
+        "primary_area":"Greek Village",
+        "lot_name":"Lot 52T",
+        "Nearest Bull Runner Stops":"00446 - Greek Park",
+        "Routes Covered at that Stops (ex: purple, green etc)":"orange",
+        "nearby parking lots":"Lot 51, Lot 52"
+    },
+    {
+        "primary_area":"Greek Village",
+        "lot_name":"Lot 53",
+        "Nearest Bull Runner Stops":"00446 - Greek Park",
+        "Routes Covered at that Stops (ex: purple, green etc)":"orange",
+        "nearby parking lots":"Lot 50"
+    },
+    {
+        "primary_area":"The Fit Health & Wellness Center",
+        "lot_name":"Lot 56",
+        "Nearest Bull Runner Stops":"00970 - Parking Lot 56",
+        "Routes Covered at that Stops (ex: purple, green etc)":"purple, orange, blue, green",
+        "nearby parking lots":"Lot 25, Lot 16"
+    },
+    {
+        "primary_area":"USF Apple Drive",
+        "lot_name":"Lot Apple",
+        "Nearest Bull Runner Stops":"00102 - Library",
+        "Routes Covered at that Stops (ex: purple, green etc)":"brown, green, orange, purple, red ",
+        "nearby parking lots":"Lot 01, Collins Blvd Garage"
+    },
+    {
+        "primary_area":"Campus Information Center",
+        "lot_name":"Lot CIC",
+        "Nearest Bull Runner Stops":"00108 - Alumni Center",
+        "Routes Covered at that Stops (ex: purple, green etc)":"orange, purple ",
+        "nearby parking lots":"Lot 29A"
+    },
+    {
+        "primary_area":"USF Cedar Circle",
+        "lot_name":"Lot Cedar Drive",
+        "Nearest Bull Runner Stops":"00401 - Marshall Student Center",
+        "Routes Covered at that Stops (ex: purple, green etc)":"blue, green, orange, purple, red ",
+        "nearby parking lots":"Crescent Hill Garage, Lot 05A"
+    },
+    {
+        "primary_area":"Recreation Softball Complex",
+        "lot_name":"Lot Intramural Field",
+        "Nearest Bull Runner Stops":"00161 - Lee Roy Selmon Athletics Center",
+        "Routes Covered at that Stops (ex: purple, green etc)":"orange",
+        "nearby parking lots":"Lot 06"
+    },
+    {
+        "primary_area":"Life Science Annex",
+        "lot_name":"Lot Life Science Annex",
+        "Nearest Bull Runner Stops":"00209 - Science Center",
+        "Routes Covered at that Stops (ex: purple, green etc)":"green",
+        "nearby parking lots":"Lot 8A"
+    },
+    {
+        "primary_area":"Morsani College of Medicine",
+        "lot_name":"Lot Morsani Service Area",
+        "Nearest Bull Runner Stops":"00352 - Morsani Advanced Healthcare",
+        "Routes Covered at that Stops (ex: purple, green etc)":"blue",
+        "nearby parking lots":"Lot 31, Lot 32, Lot 33"
+    },
+    {
+        "primary_area":"USF Sago Drive",
+        "lot_name":"Lot Sago Drive",
+        "Nearest Bull Runner Stops":"00108 - Alumni Center",
+        "Routes Covered at that Stops (ex: purple, green etc)":"purple, orange",
+        "nearby parking lots":"Lot 29A, Lot 29B, Lot 36"
+    },
+    {
+        "primary_area":"Varsity Tennis Courts",
+        "lot_name":"Lot Varsity Tennis Court",
+        "Nearest Bull Runner Stops":"00445 - Parking Lot 35",
+        "Routes Covered at that Stops (ex: purple, green etc)":"orange",
+        "nearby parking lots":"Lot 5E, Lot 5D"
+    }
+]

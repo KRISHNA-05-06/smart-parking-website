@@ -108,6 +108,20 @@ const rawParkingData = [
     }
   },
   {
+    "id": "lot-02c",
+    "name": "Lot 02C",
+    "location": "USF Tampa Campus",
+    "lotNumber": "Lot 02C",
+    "totalSpaces": 16,
+    "availableSpaces": 3,
+    "permitTypes": ["GZ02"],
+    "hourlyRate": 0,
+    "amenities": ["Disabled Parking"],
+    "permitAvailability": {
+      "GZ02": 16
+    }
+  },
+  {
     "id": "lot-03a",
     "name": "Lot 03A",
     "location": "USF Tampa Campus",
@@ -165,6 +179,20 @@ const rawParkingData = [
     "permitAvailability": {
       "E": 53,
       "S": 53
+    }
+  },
+  {
+    "id": "lot-03e",
+    "name": "Lot 03E",
+    "location": "USF Tampa Campus",
+    "lotNumber": "Lot 03E",
+    "totalSpaces": 18,
+    "availableSpaces": 4,
+    "permitTypes": ["E"],
+    "hourlyRate": 0,
+    "amenities": ["Disabled Parking"],
+    "permitAvailability": {
+      "E": 18
     }
   },
   {
@@ -421,12 +449,12 @@ const rawParkingData = [
     "location": "USF Tampa Campus",
     "lotNumber": "Lot 15",
     "totalSpaces": 16,
-    "availableSpaces": 3,
+    "availableSpaces": 0,
     "permitTypes": ["E"],
     "hourlyRate": 0,
     "amenities": ["Disabled Parking", "Load/Unload"],
     "permitAvailability": {
-      "E": 10
+      "E": 16
     }
   },
   {
@@ -553,13 +581,13 @@ const rawParkingData = [
     "location": "USF Tampa Campus",
     "lotNumber": "Lot 21",
     "totalSpaces": 110,
-    "availableSpaces": 22,
+    "availableSpaces": 0,
     "permitTypes": ["E", "S"],
     "hourlyRate": 0,
     "amenities": ["Disabled Parking", "Motorcycle Parking", "EV Charging", "Timed Spaces"],
     "permitAvailability": {
-      "E": 43,
-      "S": 44
+      "E": 55,
+      "S": 55
     }
   },
   {
@@ -568,13 +596,13 @@ const rawParkingData = [
     "location": "USF Tampa Campus",
     "lotNumber": "Lot 22A",
     "totalSpaces": 119,
-    "availableSpaces": 24,
+    "availableSpaces": 0,
     "permitTypes": ["E", "S"],
     "hourlyRate": 0,
     "amenities": ["Disabled Parking", "State Vehicle", "Timed Spaces"],
     "permitAvailability": {
-      "E": 43,
-      "S": 44
+      "E": 60,
+      "S": 59
     }
   },
   {
@@ -583,14 +611,14 @@ const rawParkingData = [
     "location": "USF Tampa Campus",
     "lotNumber": "Lot 22D",
     "totalSpaces": 537,
-    "availableSpaces": 107,
+    "availableSpaces": 0,
     "permitTypes": ["D", "E", "S"],
     "hourlyRate": 0,
     "amenities": ["Disabled Parking", "Motorcycle Parking", "Timed Spaces"],
     "permitAvailability": {
-      "D": 162,
-      "E": 162,
-      "S": 163
+      "D": 179,
+      "E": 179,
+      "S": 179
     }
   },
   {
@@ -599,14 +627,30 @@ const rawParkingData = [
     "location": "USF Tampa Campus",
     "lotNumber": "Lot 22E",
     "totalSpaces": 367,
-    "availableSpaces": 73,
+    "availableSpaces": 0,
     "permitTypes": ["D", "E", "S"],
     "hourlyRate": 0,
     "amenities": ["Disabled Parking", "Motorcycle Parking", "30 Minute Timed Space"],
     "permitAvailability": {
-      "D": 110,
-      "E": 110,
-      "S": 110
+      "D": 122,
+      "E": 122,
+      "S": 123
+    }
+  },
+  {
+    "id": "lot-22f",
+    "name": "Lot 22F",
+    "location": "USF Tampa Campus",
+    "lotNumber": "Lot 22F",
+    "totalSpaces": 198,
+    "availableSpaces": 0,
+    "permitTypes": ["D", "E", "S"],
+    "hourlyRate": 0,
+    "amenities": ["Disabled Parking", "Motorcycle Parking"],
+    "permitAvailability": {
+      "D": 66,
+      "E": 66,
+      "S": 66
     }
   },
   {
@@ -1081,14 +1125,14 @@ const rawParkingData = [
     "location": "USF Tampa Campus",
     "lotNumber": "Lot 40",
     "totalSpaces": 24,
-    "availableSpaces": 5,
+    "availableSpaces": 0,
     "permitTypes": ["E", "D", "S"],
     "hourlyRate": 0,
     "amenities": ["30 Minute Timed Space", "Timed Spaces"],
     "permitAvailability": {
-      "E": 5,
-      "D": 5,
-      "S": 4
+      "E": 8,
+      "D": 8,
+      "S": 8
     }
   },
   {
@@ -1097,12 +1141,12 @@ const rawParkingData = [
     "location": "USF Tampa Campus",
     "lotNumber": "Lot 41",
     "totalSpaces": 61,
-    "availableSpaces": 12,
+    "availableSpaces": 0,
     "permitTypes": ["E"],
     "hourlyRate": 0,
     "amenities": ["Disabled Parking"],
     "permitAvailability": {
-      "E": 54
+      "E": 61
     }
   },
   {
@@ -1467,7 +1511,7 @@ function getSpecificLocation(lot: any): string {
     // Education & Library area (lots 01-02)
     if (lotNum === '01') return 'Near Education';
     if (lotNum === '02a') return 'Near Library';
-    if (lotNum === '02c') return 'Near Marshall Student Center';
+    if (lotNum === '02c') return 'Near Multidisciplinary Sciences';
     
     // Marshall Center lots (03-05 series)
     if (lotNum === '03') return 'Near Marshall Student Center';
@@ -1475,6 +1519,7 @@ function getSpecificLocation(lot: any): string {
     if (lotNum === '03b') return 'Near Marshall Student Center';
     if (lotNum === '03c') return 'Near Marshall Student Center';
     if (lotNum === '03d') return 'Near Fine Arts';
+    if (lotNum === '03e') return 'Near School of Music';
     if (lotNum === '04') return 'Near Post Office';
     if (lotNum === '05a') return 'Near Marshall Student Center';
     if (lotNum === '05b') return 'Near Argos Center';
@@ -1575,7 +1620,7 @@ function getSpecificLocation(lot: any): string {
     if (lotNum === '42') return 'Near USF Health Faculty Office Building';
     if (lotNum === '43') return 'Near Alzheimers Center';
     if (lotNum === '44') return 'Near Testbed Assistive Rehabilitative Robotics';
-    if (lotNum === '45') return 'Near Theatre Centre';
+    if (lotNum === '45') return 'Near USF Patel Partnership School';
     if (lotNum === '46') return 'Near Psychology & Communication Sciences';
     if (lotNum === '47') return 'Near Magnolia Field Complex';
     if (lotNum === '47a') return 'Near Magnolia Apartments';
@@ -1737,7 +1782,28 @@ if (correctedCount === parkingLots.length) {
 
 export function getUpdatedParkingLots(currentLots?: ParkingLotDetail[]): ParkingLotDetail[] {
   const source = currentLots ?? parkingLots;
+  
+  // List of lots that should always be full (0 availability)
+  const alwaysFullLots = ['Lot 22A', 'Lot 22D', 'Lot 22E', 'Lot 22F', 'Lot 40', 'Lot 15', 'Lot 21', 'Lot 41'];
+  
   return source.map(lot => {
+    // Check if this lot should always be full
+    if (alwaysFullLots.includes(lot.name)) {
+      // Set all permit availability to 0
+      const fullPermitAvailability = lot.permitAvailability.map(permit => ({
+        ...permit,
+        available: 0
+      }));
+      
+      return {
+        ...lot,
+        availableSpaces: 0,
+        permitAvailability: fullPermitAvailability,
+        lastUpdated: new Date().toISOString()
+      };
+    }
+    
+    // Normal update logic for other lots
     const updatedPermitAvailability = lot.permitAvailability.map(permit => {
       const change = Math.floor(Math.random() * 10) - 5;
       const newAvailable = Math.max(0, Math.min(permit.total, permit.available + change));
