@@ -262,7 +262,7 @@ export const routeData = [
   // 22-series - Yuengling Center area
   {
     lotName: "Lot 22A",
-    primaryArea: "Yuengling Center",
+    primaryArea: "Student Health & Wellness Center",
     nearestBullRunnerStop: "00126 - Yuengling Center west entrance",
     routes: ["purple"]
   },

@@ -13,12 +13,10 @@
 //     Component: LotDetail,
 //   },
 //   {
-//     // Catch-all for any route we don't recognize
 //     path: '*',
 //     Component: NotFound,
 //   },
 // ]);
-
 
 import { createHashRouter } from 'react-router';
 import { Home } from './pages/Home';

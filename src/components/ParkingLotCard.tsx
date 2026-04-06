@@ -8,7 +8,6 @@ interface ParkingLotCardProps {
 
 export function ParkingLotCard({ lot }: ParkingLotCardProps) {
   const occupancyRate = ((lot.totalSpaces - lot.availableSpaces) / lot.totalSpaces) * 100;
-  // We show this as the fill bar width — how much of the lot is still free
   const availabilityRate = (lot.availableSpaces / lot.totalSpaces) * 100;
   const status = getOccupancyStatus(occupancyRate);
   const colors = getStatusColors(status);
@@ -65,7 +64,7 @@ export function ParkingLotCard({ lot }: ParkingLotCardProps) {
 
           {/* Permits */}
           <div className="mb-4">
-            <p className="text-xs text-gray-400 uppercase tracking-wide mb-2">Permits Accepted</p>
+            <p className="text-xs text-gray-400 uppercase tracking-wide mb-2">Valid Permits</p>
             <div className="flex flex-wrap gap-1.5">
               {lot.permitTypes.map((permitType) => (
                 <span
@@ -85,7 +84,7 @@ export function ParkingLotCard({ lot }: ParkingLotCardProps) {
               <span className="text-xs">{new Date(lot.lastUpdated).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}</span>
             </div>
             <div className="flex items-center gap-1 text-[#006747] group-hover:gap-2 transition-all">
-              <span className="text-xs font-medium">View Details</span>
+              <span className="text-xs font-medium">See Details</span>
               <ChevronRight className="w-3.5 h-3.5" />
             </div>
           </div>

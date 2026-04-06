@@ -608,7 +608,7 @@ const rawParkingData = [
   {
     "id": "lot-22d",
     "name": "Lot 22D",
-    "location": "USF Tampa Campus",
+    "location": "Near Yuengling Center",
     "lotNumber": "Lot 22D",
     "totalSpaces": 537,
     "availableSpaces": 0,
@@ -1568,9 +1568,9 @@ function getSpecificLocation(lot: any): string {
     if (lotNum === '21') return 'Near CW Bill Young Hall';
     if (lotNum === '21a') return 'Near Behavioral Sciences';
     if (lotNum === '21b') return 'Near Behavioral Sciences';
-    if (lotNum === '22a') return 'Near Yuengling Center';
+    if (lotNum === '22a') return 'Near Student Health & Wellness Center';
     if (lotNum === '22b') return 'Near Yuengling Center';
-    if (lotNum === '22d') return 'Near Student Health & Wellness Center';
+    if (lotNum === '22d') return 'Near Yuengling Center';
     if (lotNum === '22e') return 'Near Yuengling Center';
     if (lotNum === '22f') return 'Near Yuengling Center';
     if (lotNum === '23a') return 'Near Alumni Center';

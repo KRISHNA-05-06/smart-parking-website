@@ -3,9 +3,11 @@ import { useParams, Link } from 'react-router';
 import { ParkingLotDetail, PERMIT_INFO, getOccupancyStatus, getStatusColors } from '../types/parking';
 import {
   ArrowLeft, MapPin, Layers, DollarSign, Clock, CheckCircle,
-  RefreshCw, Car, AlertTriangle, Info, TrendingUp, CalendarClock, Bus
+  RefreshCw, Car, AlertTriangle, Info, TrendingUp, CalendarClock, Bus, Map
 } from 'lucide-react';
 import { useParkingData } from '../context/ParkingDataContext';
+import logoImage from 'figma:asset/8e9d50e3b63d602b22e7947c83472c6ae39fb1ed.png';
+import spotLogo from 'figma:asset/b93d0e644146cc2978db0553968001e0d173c2e0.png';
 
 export function LotDetail() {
   const { lotId } = useParams<{ lotId: string }>();
@@ -14,38 +16,40 @@ export function LotDetail() {
     lots.find(l => l.id === lotId)
   );
 
-  // Keep the lot in sync when context refreshes
+  // Update lot when lots change from context
   useEffect(() => {
-    const updated = lots.find(l => l.id === lotId);
-    if (updated) setLot(updated);
+    const updatedLot = lots.find(l => l.id === lotId);
+    if (updatedLot) {
+      setLot(updatedLot);
+    }
   }, [lots, lotId]);
 
-  // Map Bull Runner route names to their brand colors
+  // Helper function to get bus route color styling
   const getBusRouteColor = (route: string) => {
-    const name = route.toLowerCase();
-    const palette: Record<string, { bg: string; text: string; border: string }> = {
-      'red':    { bg: 'bg-red-500',    text: 'text-white', border: 'border-red-600' },
+    const routeLower = route.toLowerCase();
+    const colorMap: Record<string, { bg: string; text: string; border: string }> = {
+      'red': { bg: 'bg-red-500', text: 'text-white', border: 'border-red-600' },
       'orange': { bg: 'bg-orange-500', text: 'text-white', border: 'border-orange-600' },
-      'brown':  { bg: 'bg-amber-700',  text: 'text-white', border: 'border-amber-800' },
-      'blue':   { bg: 'bg-blue-500',   text: 'text-white', border: 'border-blue-600' },
+      'brown': { bg: 'bg-amber-700', text: 'text-white', border: 'border-amber-800' },
+      'blue': { bg: 'bg-blue-500', text: 'text-white', border: 'border-blue-600' },
       'purple': { bg: 'bg-purple-500', text: 'text-white', border: 'border-purple-600' },
-      'green':  { bg: 'bg-green-600',  text: 'text-white', border: 'border-green-700' },
-      'plum':   { bg: 'bg-purple-600', text: 'text-white', border: 'border-purple-700' },
+      'green': { bg: 'bg-green-600', text: 'text-white', border: 'border-green-700' },
+      'plum': { bg: 'bg-purple-600', text: 'text-white', border: 'border-purple-700' }
     };
-    return palette[name] ?? { bg: 'bg-gray-500', text: 'text-white', border: 'border-gray-600' };
+    return colorMap[routeLower] || { bg: 'bg-gray-500', text: 'text-white', border: 'border-gray-600' };
   };
 
-  // Mon–Fri = weekday, Sat–Sun = weekend
+  // Helper function to check if today is a weekday
   const isWeekday = () => {
-    const day = new Date().getDay();
-    return day >= 1 && day <= 5;
+    const today = new Date().getDay();
+    return today >= 1 && today <= 5; // Monday = 1, Friday = 5
   };
 
-  // Nice label for the "Today's Routes" section
-  const getDayLabel = () => {
+  // Get day type label
+  const getDayTypeLabel = () => {
     const today = new Date();
-    const dayName = today.toLocaleDateString('en-US', { weekday: 'long' });
-    return isWeekday() ? `${dayName} (Weekday)` : `${dayName} (Weekend)`;
+    const dayOfWeek = today.toLocaleDateString('en-US', { weekday: 'long' });
+    return isWeekday() ? `${dayOfWeek} (Weekday)` : `${dayOfWeek} (Weekend)`;
   };
 
   if (!lot) {
@@ -53,9 +57,9 @@ export function LotDetail() {
       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
         <div className="text-center">
           <Car className="w-12 h-12 text-gray-300 mx-auto mb-4" />
-          <h2 className="text-gray-800 mb-2">Parking Lot Not Found</h2>
+          <h2 className="text-gray-800 mb-2">We couldn't find that lot</h2>
           <Link to="/" className="text-[#006747] hover:underline text-sm">
-            ← Return to Dashboard
+            ← Back to all lots
           </Link>
         </div>
       </div>
@@ -71,13 +75,25 @@ export function LotDetail() {
       {/* Top Nav */}
       <nav className="bg-[#006747] border-b border-[#005538]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <div className="w-8 h-8 bg-[#CFC493] rounded-lg flex items-center justify-center">
-              <Car className="w-5 h-5 text-[#006747]" />
+          <div className="flex items-center gap-0">
+            <img src={logoImage} alt="USF Logo" className="w-10 h-10 object-contain" style={{ mixBlendMode: 'screen' }} />
+            <div className="flex items-center gap-2 -ml-2">
+              <img src={spotLogo} alt="USF Smart Parking" className="h-10 object-contain" style={{ mixBlendMode: 'screen' }} />
+              <span className="text-[#CFC493] text-xs hidden sm:inline">University of South Florida</span>
             </div>
-            <span className="text-white font-semibold" style={{ fontSize: '1rem' }}>USF Smart Parking</span>
           </div>
           <div className="flex items-center gap-2 text-[#CFC493] text-xs">
+            {/* Campus Map Button - Direct Link */}
+            <a
+              href="https://www.usf.edu/parking/documents/parkingmap.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1.5 bg-white/10 hover:bg-white/20 px-3 py-1.5 rounded-lg transition-colors border border-white/20"
+            >
+              <Map className="w-4 h-4" />
+              <span className="hidden sm:inline">Campus Map</span>
+            </a>
+            
             <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
             <span>Live Data</span>
           </div>
@@ -124,7 +140,7 @@ export function LotDetail() {
             {/* Overall Availability Card */}
             <div className="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
               <div className="flex items-center justify-between px-6 py-4 border-b border-gray-100">
-                <h2 className="text-gray-800" style={{ fontSize: '1.1rem', fontWeight: 600 }}>Overall Availability</h2>
+                <h2 className="text-gray-800" style={{ fontSize: '1.1rem', fontWeight: 600 }}>Current Availability</h2>
                 <button
                   onClick={refreshData}
                   disabled={isRefreshing}
@@ -155,7 +171,7 @@ export function LotDetail() {
 
                 <div className="mb-2">
                   <div className="flex justify-between text-sm text-gray-600 mb-2">
-                    <span>Occupancy Rate</span>
+                    <span>How Full</span>
                     <span className="font-medium">{occupancyRate.toFixed(1)}%</span>
                   </div>
                   <div className="w-full bg-gray-100 rounded-full h-4 overflow-hidden">
@@ -175,7 +191,7 @@ export function LotDetail() {
                 <div className="flex items-center gap-1.5 text-gray-400 mt-4">
                   <Clock className="w-3.5 h-3.5" />
                   <span style={{ fontSize: '0.75rem' }}>
-                    Last updated: {lastRefreshed.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' })} · Auto-refreshes every 30 seconds
+                    Updated at {lastRefreshed.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' })} · refreshes every 30 seconds
                   </span>
                 </div>
               </div>
@@ -184,15 +200,15 @@ export function LotDetail() {
             {/* Per-Permit Breakdown */}
             <div className="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
               <div className="px-6 py-4 border-b border-gray-100">
-                <h2 className="text-gray-800" style={{ fontSize: '1.1rem', fontWeight: 600 }}>Availability by Permit Type</h2>
-                <p className="text-gray-500 text-xs mt-0.5">Live breakdown per permit category</p>
+                <h2 className="text-gray-800" style={{ fontSize: '1.1rem', fontWeight: 600 }}>Spaces by Permit Type</h2>
+                <p className="text-gray-500 text-xs mt-0.5">How many spots are open for each permit right now</p>
               </div>
               <div className="p-6 space-y-4">
                 {lot.permitAvailability.map((permit) => {
-                  const pctOccupied = ((permit.total - permit.available) / permit.total) * 100;
-                  const pStatus = getOccupancyStatus(pctOccupied);
+                  const permitOccupancy = ((permit.total - permit.available) / permit.total) * 100;
+                  const pStatus = getOccupancyStatus(permitOccupancy);
                   const pColors = getStatusColors(pStatus);
-                  const pctFree = (permit.available / permit.total * 100).toFixed(0);
+                  const availPct = (permit.available / permit.total * 100).toFixed(0);
 
                   return (
                     <div key={permit.permitType} className="border border-gray-100 rounded-xl p-4 bg-gray-50/50">
@@ -222,29 +238,30 @@ export function LotDetail() {
                           />
                         </div>
                         <span className={`text-xs font-medium px-2 py-0.5 rounded-full ${pColors.badge}`}>
-                          {pctFree}% free
+                          {availPct}% free
                         </span>
                       </div>
                     </div>
                   );
                 })}
+                
               </div>
             </div>
 
             {/* Alternative Transportation */}
             {lot.alternativeTransportation && (() => {
-              const routesToday = isWeekday()
-                ? lot.alternativeTransportation.weekdayRoutes
+              const todayRoutes = isWeekday() 
+                ? lot.alternativeTransportation.weekdayRoutes 
                 : lot.alternativeTransportation.weekendRoutes;
-
+              
               return (
                 <div className="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
                   <div className="px-6 py-4 border-b border-gray-100">
                     <div className="flex items-center gap-2">
                       <Bus className="w-4 h-4 text-gray-600" />
-                      <h2 className="text-gray-800" style={{ fontSize: '1.1rem', fontWeight: 600 }}>Alternative Transportation</h2>
+                      <h2 className="text-gray-800" style={{ fontSize: '1.1rem', fontWeight: 600 }}>Getting Here Without a Car</h2>
                     </div>
-                    <p className="text-gray-500 text-xs mt-0.5">Bull Runner shuttle options near this lot</p>
+                    <p className="text-gray-500 text-xs mt-0.5">Bull Runner stops close to this lot</p>
                   </div>
                   <div className="p-6 space-y-5">
                     {/* Nearest Stop */}
@@ -254,7 +271,7 @@ export function LotDetail() {
                           <MapPin className="w-5 h-5 text-white" />
                         </div>
                         <div className="flex-1">
-                          <div className="text-gray-600 text-xs font-medium uppercase tracking-wide mb-1">Nearest Stop</div>
+                          <div className="text-gray-600 text-xs font-medium uppercase tracking-wide mb-1">Closest Stop</div>
                           <div className="text-gray-800 text-sm font-semibold">{lot.alternativeTransportation.nearestStop}</div>
                         </div>
                       </div>
@@ -263,11 +280,11 @@ export function LotDetail() {
                     {/* Today's Routes */}
                     <div>
                       <div className="flex items-center gap-2 mb-3">
-                        <div className="text-gray-700 text-sm font-semibold">Today's Routes</div>
-                        <div className="text-xs text-gray-500 bg-gray-100 px-2 py-0.5 rounded-full">{getDayLabel()}</div>
+                        <div className="text-gray-700 text-sm font-semibold">Running Today</div>
+                        <div className="text-xs text-gray-500 bg-gray-100 px-2 py-0.5 rounded-full">{getDayTypeLabel()}</div>
                       </div>
                       <div className="flex flex-wrap gap-2">
-                        {routesToday.map((route) => {
+                        {todayRoutes.map((route) => {
                           const routeColors = getBusRouteColor(route);
                           return (
                             <div
@@ -287,7 +304,7 @@ export function LotDetail() {
                       <div className="flex items-start gap-2">
                         <Info className="w-4 h-4 text-blue-600 flex-shrink-0 mt-0.5" />
                         <p className="text-blue-800 text-xs leading-relaxed">
-                          Bull Runner is USF's free shuttle service. Check the <span className="font-semibold">TransLoc</span> app for real-time bus tracking and schedules.
+                          Bull Runner is USF's free shuttle — no fare, no fuss. Open the <span className="font-semibold">TransLoc</span> app to see exactly where the bus is and when it's arriving.
                         </p>
                       </div>
                     </div>
@@ -303,7 +320,7 @@ export function LotDetail() {
             {/* Lot Info */}
             <div className="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
               <div className="px-5 py-4 bg-[#006747]">
-                <h3 className="text-white font-semibold" style={{ fontSize: '0.9rem' }}>Lot Information</h3>
+                <h3 className="text-white font-semibold" style={{ fontSize: '0.9rem' }}>About This Lot</h3>
               </div>
               <div className="p-5 space-y-4">
                 {lot.floors && (
@@ -312,8 +329,8 @@ export function LotDetail() {
                       <Layers className="w-4 h-4 text-gray-600" />
                     </div>
                     <div>
-                      <div className="text-gray-800 text-sm font-medium">Levels</div>
-                      <div className="text-gray-500 text-xs">{lot.floors} floors</div>
+                      <div className="text-gray-800 text-sm font-medium">Floors</div>
+                      <div className="text-gray-500 text-xs">{lot.floors} levels</div>
                     </div>
                   </div>
                 )}
@@ -323,8 +340,8 @@ export function LotDetail() {
                       <DollarSign className="w-4 h-4 text-gray-600" />
                     </div>
                     <div>
-                      <div className="text-gray-800 text-sm font-medium">Hourly Rate</div>
-                      <div className="text-gray-500 text-xs">${lot.hourlyRate.toFixed(2)} / hour</div>
+                      <div className="text-gray-800 text-sm font-medium">Parking Rate</div>
+                      <div className="text-gray-500 text-xs">${lot.hourlyRate.toFixed(2)} per hour</div>
                     </div>
                   </div>
                 )}
@@ -342,7 +359,7 @@ export function LotDetail() {
                     <TrendingUp className="w-4 h-4 text-gray-600" />
                   </div>
                   <div>
-                    <div className="text-gray-800 text-sm font-medium">Occupancy</div>
+                    <div className="text-gray-800 text-sm font-medium">Right Now</div>
                     <div className={`text-xs font-medium ${colors.badge} inline-block px-2 py-0.5 rounded-full mt-0.5`}>
                       {occupancyRate.toFixed(1)}% · {colors.label}
                     </div>
@@ -354,7 +371,7 @@ export function LotDetail() {
             {/* Amenities */}
             <div className="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
               <div className="px-5 py-4 border-b border-gray-100">
-                <h3 className="text-gray-800 font-semibold" style={{ fontSize: '0.9rem' }}>Amenities</h3>
+                <h3 className="text-gray-800 font-semibold" style={{ fontSize: '0.9rem' }}>What's Here</h3>
               </div>
               <div className="p-5 space-y-2">
                 {lot.amenities.map((amenity) => (
@@ -369,7 +386,7 @@ export function LotDetail() {
             {/* Accepted Permits */}
             <div className="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
               <div className="px-5 py-4 border-b border-gray-100">
-                <h3 className="text-gray-800 font-semibold" style={{ fontSize: '0.9rem' }}>Accepted Permits</h3>
+                <h3 className="text-gray-800 font-semibold" style={{ fontSize: '0.9rem' }}>Valid Permits</h3>
               </div>
               <div className="p-5 space-y-2">
                 {lot.permitTypes.map((permitType) => (
@@ -389,9 +406,9 @@ export function LotDetail() {
                 <div className="px-5 py-4 border-b border-gray-100">
                   <div className="flex items-center gap-2">
                     <CalendarClock className="w-4 h-4 text-gray-600" />
-                    <h3 className="text-gray-800 font-semibold" style={{ fontSize: '0.9rem' }}>Peak Times</h3>
+                    <h3 className="text-gray-800 font-semibold" style={{ fontSize: '0.9rem' }}>Busy Hours</h3>
                   </div>
-                  <p className="text-gray-500 text-xs mt-0.5">When this lot is typically full</p>
+                  <p className="text-gray-500 text-xs mt-0.5">When this lot tends to fill up</p>
                 </div>
                 <div className="p-5">
                   <div className="bg-gradient-to-br from-red-50 to-orange-50 border border-red-200 rounded-lg p-4">
@@ -402,20 +419,20 @@ export function LotDetail() {
                   <div className="mt-3 flex items-start gap-2 text-gray-500 text-xs">
                     <Info className="w-3.5 h-3.5 flex-shrink-0 mt-0.5" />
                     <p className="leading-relaxed">
-                      Plan ahead during peak hours to find parking more easily. Consider arriving early or using alternative lots.
+                      If you can, aim to arrive a bit before these windows — or check a nearby lot as a backup.
                     </p>
                   </div>
                 </div>
               </div>
             )}
 
-            {/* Disclaimer */}
+            {/* Alert */}
             <div className="bg-amber-50 border border-amber-200 rounded-xl p-4">
               <div className="flex gap-2">
                 <AlertTriangle className="w-4 h-4 text-amber-600 flex-shrink-0 mt-0.5" />
                 <div>
-                  <p className="text-amber-800 text-xs font-medium">Real-time Estimates</p>
-                  <p className="text-amber-700 text-xs mt-0.5">Space counts are updated continuously and may vary by a few spaces.</p>
+                  <p className="text-amber-800 text-xs font-medium">Heads Up</p>
+                  <p className="text-amber-700 text-xs mt-0.5">Numbers update continuously but may be off by a space or two — counts are estimates, not exact.</p>
                 </div>
               </div>
             </div>
@@ -426,7 +443,7 @@ export function LotDetail() {
       {/* Footer */}
       <footer className="bg-[#006747] text-green-200 py-6 px-6 text-center text-xs">
         <p>© 2026 University of South Florida · Parking & Transportation Services</p>
-        <p className="mt-1 text-green-300">Data refreshes automatically every 30 seconds</p>
+        <p className="mt-1 text-green-300">Availability updates every 30 seconds</p>
       </footer>
     </div>
   );

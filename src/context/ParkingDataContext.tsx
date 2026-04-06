@@ -16,19 +16,19 @@ export function ParkingDataProvider({ children }: { children: ReactNode }) {
   const [lastRefreshed, setLastRefreshed] = useState(new Date());
   const [isRefreshing, setIsRefreshing] = useState(false);
 
-  // Poll every 30 seconds, but skip when the tab is in the background
+  // Auto-refresh every 30 seconds, but only when tab is visible
   useEffect(() => {
-    const onVisibilityChange = () => {
+    const handleVisibilityChange = () => {
       if (!document.hidden) {
-        // User switched back to this tab — grab fresh data right away
+        // Refresh data when tab becomes visible again
         setLots(prev => getUpdatedParkingLots(prev));
         setLastRefreshed(new Date());
       }
     };
 
-    document.addEventListener('visibilitychange', onVisibilityChange);
+    document.addEventListener('visibilitychange', handleVisibilityChange);
 
-    const timer = setInterval(() => {
+    const interval = setInterval(() => {
       if (!document.hidden) {
         setLots(prev => getUpdatedParkingLots(prev));
         setLastRefreshed(new Date());
@@ -36,12 +36,11 @@ export function ParkingDataProvider({ children }: { children: ReactNode }) {
     }, 30000);
 
     return () => {
-      clearInterval(timer);
-      document.removeEventListener('visibilitychange', onVisibilityChange);
+      clearInterval(interval);
+      document.removeEventListener('visibilitychange', handleVisibilityChange);
     };
   }, []);
 
-  // Manual refresh — brief spinner so it feels responsive
   const refreshData = () => {
     setIsRefreshing(true);
     setLots(prev => getUpdatedParkingLots(prev));
@@ -57,9 +56,9 @@ export function ParkingDataProvider({ children }: { children: ReactNode }) {
 }
 
 export function useParkingData() {
-  const ctx = useContext(ParkingDataContext);
-  if (ctx === undefined) {
-    throw new Error('useParkingData must be called inside a ParkingDataProvider');
+  const context = useContext(ParkingDataContext);
+  if (context === undefined) {
+    throw new Error('useParkingData must be used within a ParkingDataProvider');
   }
-  return ctx;
+  return context;
 }
