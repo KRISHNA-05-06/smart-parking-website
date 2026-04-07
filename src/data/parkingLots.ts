@@ -1565,7 +1565,7 @@ function getSpecificLocation(lot: any): string {
     if (lotNum === '20a') return 'Near Cypress Apartments';
     if (lotNum === '20b') return 'Near Cypress Apartments';
     if (lotNum === '20c') return 'Near Cypress Apartments';
-    if (lotNum === '21') return 'Near CW Bill Young Hall';
+    if (lotNum === '21') return 'Near C. W. Bill Young Hall';
     if (lotNum === '21a') return 'Near Behavioral Sciences';
     if (lotNum === '21b') return 'Near Behavioral Sciences';
     if (lotNum === '22a') return 'Near Student Health & Wellness Center';
