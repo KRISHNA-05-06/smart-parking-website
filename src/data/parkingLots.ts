@@ -1490,7 +1490,7 @@ function getSpecificLocation(lot: any): string {
   if (lotName.includes('beard')) return 'Near Engineering';
   if (lotName.includes('collins')) return 'Near Library';
   if (lotName.includes('laurel')) return 'Near USF Health';
-  if (lotName.includes('crescent')) return 'Near The Village';
+  if (lotName.includes('crescent')) return 'Near Marshall Student Center';
   
   // Extract lot number
   const lotMatch = lotId.match(/lot-(\d+[a-z]?|[a-z-]+)/);
